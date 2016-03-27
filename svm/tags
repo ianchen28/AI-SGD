@@ -1,0 +1,454 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+B	old/svmsgdqn.cpp	/^  FVector B;$/;"	m	class:SgdQn	file:
+BIAS	old/svmsgd2.cpp	62;"	d	file:
+BIAS	svmasgd.cpp	49;"	d	file:
+BIAS	svmimplicit.cpp	64;"	d	file:
+BIAS	svmsag.cpp	72;"	d	file:
+BIAS	svmsgd.cpp	51;"	d	file:
+Bc	old/svmsgdqn.cpp	/^  FVector Bc;$/;"	m	class:SgdQn	file:
+CXX	Makefile	/^CXX=g++$/;"	m
+CXX	old/Makefile	/^CXX=g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS= ${OPTS} ${OPT} -Wall -I$L$/;"	m
+CXXFLAGS	old/Makefile	/^CXXFLAGS= ${OPTS} ${OPT} -Wall -I$L$/;"	m
+DATADIR	prep_alpha.cpp	34;"	d	file:
+DATADIR	prep_rcv1.cpp	310;"	d	file:
+DATADIR	prep_webspam.cpp	34;"	d	file:
+DATAFILE	prep_alpha.cpp	35;"	d	file:
+DATAFILE	prep_webspam.cpp	35;"	d	file:
+DATATEST	prep_alpha.cpp	36;"	d	file:
+DATATEST	prep_webspam.cpp	36;"	d	file:
+DATA_H	data.h	20;"	d
+DEF	svmasgd.cpp	300;"	d	file:
+DEF	svmasgd.cpp	312;"	d	file:
+DEF	svmimplicit.cpp	301;"	d	file:
+DEF	svmimplicit.cpp	311;"	d	file:
+DEF	svmsag.cpp	352;"	d	file:
+DEF	svmsag.cpp	364;"	d	file:
+DEF	svmsgd.cpp	253;"	d	file:
+DEF	svmsgd.cpp	263;"	d	file:
+HAS_UNIFORMINT	svmsag.cpp	38;"	d	file:
+HAS_UNIFORMINTDISTRIBUTION	svmsag.cpp	36;"	d	file:
+HAS_UNORDEREDMAP	prep_rcv1.cpp	35;"	d	file:
+HINGELOSS	old/svmcg.cpp	53;"	d	file:
+HINGELOSS	old/svmolbfgs.cpp	54;"	d	file:
+HINGELOSS	old/svmsgd2.cpp	54;"	d	file:
+HINGELOSS	old/svmsgdqn.cpp	134;"	d	file:
+HingeLoss	loss.h	/^struct HingeLoss$/;"	s
+INCS	Makefile	/^INCS = $L\/vectors.h $L\/gzstream.h $L\/timer.h $L\/wrapper.h $L\/assert.h$/;"	m
+L	Makefile	/^L=..\/lib$/;"	m
+L	old/Makefile	/^L=..\/..\/lib$/;"	m
+LIBS	Makefile	/^LIBS = -lz -lm$/;"	m
+LIBS	old/Makefile	/^LIBS = -lz -lm$/;"	m
+LOGLOSS	old/svmcg.cpp	56;"	d	file:
+LOGLOSS	old/svmolbfgs.cpp	57;"	d	file:
+LOGLOSS	old/svmsgd2.cpp	57;"	d	file:
+LOGLOSS	old/svmsgdqn.cpp	137;"	d	file:
+LOGLOSSMARGIN	old/svmcg.cpp	57;"	d	file:
+LOGLOSSMARGIN	old/svmolbfgs.cpp	58;"	d	file:
+LOGLOSSMARGIN	old/svmsgd2.cpp	58;"	d	file:
+LOGLOSSMARGIN	old/svmsgdqn.cpp	138;"	d	file:
+LOSS	old/svmcg.cpp	44;"	d	file:
+LOSS	old/svmolbfgs.cpp	45;"	d	file:
+LOSS	old/svmsgd2.cpp	45;"	d	file:
+LOSS	old/svmsgdqn.cpp	125;"	d	file:
+LOSS	svmasgd.cpp	41;"	d	file:
+LOSS	svmimplicit.cpp	55;"	d	file:
+LOSS	svmsag.cpp	63;"	d	file:
+LOSS	svmsgd.cpp	42;"	d	file:
+LOSS_H	loss.h	20;"	d
+Loader	data.cpp	/^Loader::Loader(const char *name)$/;"	f	class:Loader
+Loader	data.h	/^class Loader$/;"	c
+LogLoss	loss.h	/^struct LogLoss$/;"	s
+NAM	svmasgd.cpp	299;"	d	file:
+NAM	svmasgd.cpp	311;"	d	file:
+NAM	svmimplicit.cpp	300;"	d	file:
+NAM	svmimplicit.cpp	310;"	d	file:
+NAM	svmsag.cpp	351;"	d	file:
+NAM	svmsag.cpp	363;"	d	file:
+NAM	svmsgd.cpp	252;"	d	file:
+NAM	svmsgd.cpp	262;"	d	file:
+NAME	svmasgd.cpp	381;"	d	file:
+NAME	svmimplicit.cpp	375;"	d	file:
+NAME	svmsag.cpp	434;"	d	file:
+NAME	svmsgd.cpp	327;"	d	file:
+NAME2	svmasgd.cpp	382;"	d	file:
+NAME2	svmimplicit.cpp	376;"	d	file:
+NAME2	svmsag.cpp	435;"	d	file:
+NAME2	svmsgd.cpp	328;"	d	file:
+OBJS	Makefile	/^OBJS = vectors.o gzstream.o timer.o$/;"	m
+OPT	Makefile	/^OPT=$/;"	m
+OPT	old/Makefile	/^OPT=$/;"	m
+OPTS	Makefile	/^OPTS=-g -O2$/;"	m
+OPTS	old/Makefile	/^OPTS=-g -O2$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = prep_rcv1 prep_alpha prep_webspam svmsgd svmasgd svmimplicit$/;"	m
+PROGRAMS	old/Makefile	/^PROGRAMS = svmsgd2 svmsgdqn svmcg svmolbfgs$/;"	m
+Private	data.cpp	/^struct Loader::Private$/;"	s	class:Loader	file:
+REGULARIZEBIAS	old/svmsgd2.cpp	65;"	d	file:
+REGULARIZEDBIAS	old/svmcg.cpp	60;"	d	file:
+REGULARIZED_BIAS	svmasgd.cpp	52;"	d	file:
+REGULARIZED_BIAS	svmimplicit.cpp	67;"	d	file:
+REGULARIZED_BIAS	svmsag.cpp	75;"	d	file:
+REGULARIZED_BIAS	svmsgd.cpp	54;"	d	file:
+SMOOTHHINGELOSS	old/svmcg.cpp	54;"	d	file:
+SMOOTHHINGELOSS	old/svmolbfgs.cpp	55;"	d	file:
+SMOOTHHINGELOSS	old/svmsgd2.cpp	55;"	d	file:
+SMOOTHHINGELOSS	old/svmsgdqn.cpp	135;"	d	file:
+SQUAREDHINGELOSS	old/svmcg.cpp	55;"	d	file:
+SQUAREDHINGELOSS	old/svmolbfgs.cpp	56;"	d	file:
+SQUAREDHINGELOSS	old/svmsgd2.cpp	56;"	d	file:
+SQUAREDHINGELOSS	old/svmsgdqn.cpp	136;"	d	file:
+SgdQn	old/svmsgdqn.cpp	/^SgdQn::SgdQn(int dim, double l, double t0)$/;"	f	class:SgdQn
+SgdQn	old/svmsgdqn.cpp	/^class SgdQn$/;"	c	file:
+SmoothHingeLoss	loss.h	/^struct SmoothHingeLoss$/;"	s
+SquaredHingeLoss	loss.h	/^struct SquaredHingeLoss$/;"	s
+SvmAsgd	svmasgd.cpp	/^SvmAsgd::SvmAsgd(int dim, double lambda, double tstart, double eta0)$/;"	f	class:SvmAsgd
+SvmAsgd	svmasgd.cpp	/^class SvmAsgd$/;"	c	file:
+SvmCg	old/svmcg.cpp	/^SvmCg::SvmCg(int dim, double l, int trainsize)$/;"	f	class:SvmCg
+SvmCg	old/svmcg.cpp	/^class SvmCg$/;"	c	file:
+SvmIsgd	svmimplicit.cpp	/^SvmIsgd::SvmIsgd(int dim, double lambda, double eta0)$/;"	f	class:SvmIsgd
+SvmIsgd	svmimplicit.cpp	/^class SvmIsgd$/;"	c	file:
+SvmSag	svmsag.cpp	/^SvmSag::SvmSag(int dim, double lambda, double eta)$/;"	f	class:SvmSag
+SvmSag	svmsag.cpp	/^class SvmSag$/;"	c	file:
+SvmSgd	old/svmsgd2.cpp	/^SvmSgd::SvmSgd(int dim, double l)$/;"	f	class:SvmSgd
+SvmSgd	old/svmsgd2.cpp	/^class SvmSgd$/;"	c	file:
+SvmSgd	svmsgd.cpp	/^SvmSgd::SvmSgd(int dim, double lambda, double eta0)$/;"	f	class:SvmSgd
+SvmSgd	svmsgd.cpp	/^class SvmSgd$/;"	c	file:
+_NAME	old/svmcg.cpp	48;"	d	file:
+_NAME	old/svmolbfgs.cpp	49;"	d	file:
+_NAME	old/svmsgd2.cpp	49;"	d	file:
+_NAME	old/svmsgdqn.cpp	129;"	d	file:
+_NAME2	old/svmcg.cpp	49;"	d	file:
+_NAME2	old/svmolbfgs.cpp	50;"	d	file:
+_NAME2	old/svmsgd2.cpp	50;"	d	file:
+_NAME2	old/svmsgdqn.cpp	130;"	d	file:
+a	svmasgd.cpp	/^  FVector a;$/;"	m	class:SvmAsgd	file:
+aBias	svmasgd.cpp	/^  double  aBias;$/;"	m	class:SvmAsgd	file:
+aDivisor	svmasgd.cpp	/^  double  aDivisor;$/;"	m	class:SvmAsgd	file:
+anorm	svmasgd.cpp	/^SvmAsgd::anorm()$/;"	f	class:SvmAsgd
+avgstart	svmasgd.cpp	/^double avgstart = -1;$/;"	v
+bias	old/svmolbfgs.cpp	/^  double  bias;$/;"	m	class:olbfgs	file:
+bias	old/svmsgd2.cpp	/^  double  bias;$/;"	m	class:SvmSgd	file:
+binary	data.cpp	/^  bool binary;$/;"	m	struct:Loader::Private	file:
+bscale	old/svmsgd2.cpp	/^  double  bscale;$/;"	m	class:SvmSgd	file:
+calibrate	old/svmolbfgs.cpp	/^olbfgs::calibrate(int imin, int imax, $/;"	f	class:olbfgs
+calibrate	old/svmsgd2.cpp	/^SvmSgd::calibrate(int imin, int imax, $/;"	f	class:SvmSgd
+calibrate	old/svmsgdqn.cpp	/^SgdQn::calibrate(int imin, int imax, $/;"	f	class:SgdQn
+classes	prep_rcv1.cpp	/^classes_t classes;$/;"	v
+classes_t	prep_rcv1.cpp	/^typedef hash_map<int,bool> classes_t;$/;"	t	file:
+compressed	data.cpp	/^  bool compressed;$/;"	m	struct:Loader::Private	file:
+computeNormalizedTfIdf	prep_rcv1.cpp	/^computeNormalizedTfIdf()$/;"	f
+compute_inverse_ratio_and_clip	old/svmsgdqn.cpp	/^compute_inverse_ratio_and_clip(FVector &w,$/;"	f
+config	svmasgd.cpp	/^config(const char *progname)$/;"	f
+config	svmimplicit.cpp	/^config(const char *progname)$/;"	f
+config	svmsag.cpp	/^config(const char *progname)$/;"	f
+config	svmsgd.cpp	/^config(const char *progname)$/;"	f
+copy_w	old/svmsgdqn.cpp	/^  FVector copy_w()$/;"	f	class:SgdQn
+count	old/svmolbfgs.cpp	/^  int count;$/;"	m	class:olbfgs	file:
+count	old/svmsgd2.cpp	/^  int count;$/;"	m	class:SvmSgd	file:
+count	old/svmsgdqn.cpp	/^  int count;$/;"	m	class:SgdQn	file:
+determineEta	svmsag.cpp	/^SvmSag::determineEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmSag
+determineEta0	svmasgd.cpp	/^SvmAsgd::determineEta0(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmAsgd
+determineEta0	svmimplicit.cpp	/^SvmIsgd::determineEta0(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmIsgd
+determineEta0	svmsgd.cpp	/^SvmSgd::determineEta0(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmSgd
+determine_t0	old/svmsgdqn.cpp	/^double determine_t0(int imin, int imax, int epochs)$/;"	f
+df	old/svmcg.cpp	/^SvmCg::df(double t)$/;"	f	class:SvmCg
+dico	prep_rcv1.cpp	/^dico_t dico;$/;"	v
+dico_t	prep_rcv1.cpp	/^typedef hash_map<string, int> dico_t;$/;"	t	file:
+dim	old/svmcg.cpp	/^int dim;$/;"	v
+dim	old/svmolbfgs.cpp	/^int dim;$/;"	v
+dim	old/svmsgd2.cpp	/^int dim;$/;"	v
+dim	old/svmsgdqn.cpp	/^int dim;$/;"	v
+dims	svmasgd.cpp	/^int dims;$/;"	v
+dims	svmimplicit.cpp	/^int dims;$/;"	v
+dims	svmsag.cpp	/^int dims;$/;"	v
+dims	svmsgd.cpp	/^int dims;$/;"	v
+dloss	loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:HingeLoss
+dloss	loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:LogLoss
+dloss	loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:SmoothHingeLoss
+dloss	loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:SquaredHingeLoss
+dloss	old/svmcg.cpp	/^double dloss(double z)$/;"	f
+dloss	old/svmolbfgs.cpp	/^double dloss(double z)$/;"	f
+dloss	old/svmsgd2.cpp	/^double dloss(double z)$/;"	f
+dloss	old/svmsgdqn.cpp	/^double dloss(double z)$/;"	f
+docs_t	prep_rcv1.cpp	/^typedef hash_map<int, SVector> docs_t;$/;"	t	file:
+dsearch	old/svmcg.cpp	/^SvmCg::dsearch(double tol)$/;"	f	class:SvmCg
+epochs	old/svmcg.cpp	/^int epochs = 100;$/;"	v
+epochs	old/svmolbfgs.cpp	/^int epochs = 5;$/;"	v
+epochs	old/svmsgd2.cpp	/^int epochs = 5;$/;"	v
+epochs	old/svmsgdqn.cpp	/^int epochs = 5;$/;"	v
+epochs	svmasgd.cpp	/^int epochs = 5;$/;"	v
+epochs	svmimplicit.cpp	/^int epochs = 5;$/;"	v
+epochs	svmsag.cpp	/^int epochs = 5;$/;"	v
+epochs	svmsgd.cpp	/^int epochs = 5;$/;"	v
+eta	svmsag.cpp	/^  double  eta;$/;"	m	class:SvmSag	file:
+eta	svmsag.cpp	/^double eta = -1;$/;"	v
+eta0	svmasgd.cpp	/^  double  eta0;$/;"	m	class:SvmAsgd	file:
+eta0	svmimplicit.cpp	/^  double  eta0;$/;"	m	class:SvmIsgd	file:
+eta0	svmsgd.cpp	/^  double  eta0;$/;"	m	class:SvmSgd	file:
+evaluateEta	svmasgd.cpp	/^SvmAsgd::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmAsgd
+evaluateEta	svmimplicit.cpp	/^SvmIsgd::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmIsgd
+evaluateEta	svmsag.cpp	/^SvmSag::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmSag
+evaluateEta	svmsgd.cpp	/^SvmSgd::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmSgd
+f	old/svmcg.cpp	/^SvmCg::f(double t)$/;"	f	class:SvmCg
+filename	data.cpp	/^  string filename;$/;"	m	struct:Loader::Private	file:
+fs	data.cpp	/^  ifstream fs;$/;"	m	struct:Loader::Private	file:
+g	old/svmcg.cpp	/^  FVector g;$/;"	m	class:SvmCg	file:
+g	svmsag.cpp	/^  FVector g;       \/\/ gradient sum$/;"	m	class:SvmSag	file:
+gBias	svmsag.cpp	/^  double  gBias;   \/\/ bias gradient sum$/;"	m	class:SvmSag	file:
+gs	data.cpp	/^  igzstream gs;$/;"	m	struct:Loader::Private	file:
+hash_map	prep_rcv1.cpp	46;"	d	file:
+i_1	old/svmolbfgs.cpp	/^  int i_1;$/;"	m	class:olbfgs	file:
+imax	svmsag.cpp	/^  int imin, imax; $/;"	m	struct:uniform_int_generator	file:
+imin	svmsag.cpp	/^  int imin, imax; $/;"	m	struct:uniform_int_generator	file:
+intvector_t	prep_rcv1.cpp	/^typedef vector<int> intvector_t;$/;"	t	file:
+lambda	old/svmcg.cpp	/^  double  lambda;$/;"	m	class:SvmCg	file:
+lambda	old/svmcg.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	old/svmolbfgs.cpp	/^  double  lambda;$/;"	m	class:olbfgs	file:
+lambda	old/svmolbfgs.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	old/svmsgd2.cpp	/^  double  lambda;$/;"	m	class:SvmSgd	file:
+lambda	old/svmsgd2.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	old/svmsgdqn.cpp	/^  double  lambda;$/;"	m	class:SgdQn	file:
+lambda	old/svmsgdqn.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	svmasgd.cpp	/^  double  lambda;$/;"	m	class:SvmAsgd	file:
+lambda	svmasgd.cpp	/^double lambda = 1e-5;$/;"	v
+lambda	svmimplicit.cpp	/^  double  lambda;$/;"	m	class:SvmIsgd	file:
+lambda	svmimplicit.cpp	/^double lambda = 1e-5;$/;"	v
+lambda	svmsag.cpp	/^  double  lambda;$/;"	m	class:SvmSag	file:
+lambda	svmsag.cpp	/^double lambda = 1e-5;$/;"	v
+lambda	svmsgd.cpp	/^  double  lambda;$/;"	m	class:SvmSgd	file:
+lambda	svmsgd.cpp	/^double lambda = 1e-5;$/;"	v
+lastt	old/svmsgdqn.cpp	/^  double  lastt;$/;"	m	class:SgdQn	file:
+listKeys	prep_rcv1.cpp	/^listKeys(docs_t &docs, intvector_t &ivec, bool shuffle=false)$/;"	f
+load	data.cpp	/^int Loader::load(xvec_t &xp, yvec_t &yp, bool normalize, int maxrows,$/;"	f	class:Loader
+load	old/svmcg.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	old/svmolbfgs.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	old/svmsgd2.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	old/svmsgdqn.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	prep_alpha.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	prep_webspam.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load_datafile	data.cpp	/^int load_datafile(const char *filename, $/;"	f
+logfile	old/svmsgdqn.cpp	/^string logfile;$/;"	v
+logs	old/svmsgdqn.cpp	/^ofstream logs;$/;"	v
+loss	loss.h	/^  static double loss(double a, double y)$/;"	f	struct:HingeLoss
+loss	loss.h	/^  static double loss(double a, double y)$/;"	f	struct:LogLoss
+loss	loss.h	/^  static double loss(double a, double y)$/;"	f	struct:SmoothHingeLoss
+loss	loss.h	/^  static double loss(double a, double y)$/;"	f	struct:SquaredHingeLoss
+loss	old/svmcg.cpp	/^double loss(double z)$/;"	f
+loss	old/svmolbfgs.cpp	/^double loss(double z)$/;"	f
+loss	old/svmsgd2.cpp	/^double loss(double z)$/;"	f
+loss	old/svmsgdqn.cpp	/^double loss(double z)$/;"	f
+lossname	old/svmcg.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+lossname	old/svmolbfgs.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+lossname	old/svmsgd2.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+lossname	old/svmsgdqn.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+m	old/svmolbfgs.cpp	/^  double m;$/;"	m	class:olbfgs	file:
+m	svmsag.cpp	/^  int     m;       \/\/ gradient count$/;"	m	class:SvmSag	file:
+main	make_txt.cpp	/^main(int argc, const char **argv)$/;"	f
+main	old/svmcg.cpp	/^main(int argc, const char **argv)$/;"	f
+main	old/svmolbfgs.cpp	/^main(int argc, const char **argv)$/;"	f
+main	old/svmsgd2.cpp	/^main(int argc, const char **argv)$/;"	f
+main	old/svmsgdqn.cpp	/^main(int argc, const char **argv)$/;"	f
+main	prep_alpha.cpp	/^int main(int, const char**)$/;"	f
+main	prep_rcv1.cpp	/^main(int, const char**)$/;"	f
+main	prep_webspam.cpp	/^int main(int, const char**)$/;"	f
+main	svmasgd.cpp	/^int main(int argc, const char **argv)$/;"	f
+main	svmimplicit.cpp	/^int main(int argc, const char **argv)$/;"	f
+main	svmsag.cpp	/^int main(int argc, const char **argv)$/;"	f
+main	svmsgd.cpp	/^int main(int argc, const char **argv)$/;"	f
+maxtrain	svmasgd.cpp	/^int maxtrain = -1;$/;"	v
+maxtrain	svmimplicit.cpp	/^int maxtrain = -1;$/;"	v
+maxtrain	svmsag.cpp	/^int maxtrain = -1;$/;"	v
+maxtrain	svmsgd.cpp	/^int maxtrain = -1;$/;"	v
+mu0	svmasgd.cpp	/^  double  mu0;$/;"	m	class:SvmAsgd	file:
+n	old/svmcg.cpp	/^  int n;$/;"	m	class:SvmCg	file:
+normalize	svmasgd.cpp	/^bool normalize = true;$/;"	v
+normalize	svmimplicit.cpp	/^bool normalize = true;$/;"	v
+normalize	svmsag.cpp	/^bool normalize = true;$/;"	v
+normalize	svmsgd.cpp	/^bool normalize = true;$/;"	v
+olbfgs	old/svmolbfgs.cpp	/^class olbfgs$/;"	c	file:
+olbfgs	old/svmolbfgs.cpp	/^olbfgs::olbfgs(int dim, double l)$/;"	f	class:olbfgs
+operator ()	svmsag.cpp	/^  int operator()() { return imin + std::rand() % (imax - imin + 1); }$/;"	f	struct:uniform_int_generator
+p	data.h	/^  Private *p;$/;"	m	class:Loader
+parse	old/svmcg.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	old/svmolbfgs.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	old/svmsgd2.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	old/svmsgdqn.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svmasgd.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svmimplicit.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svmsag.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svmsgd.cpp	/^parse(int argc, const char **argv)$/;"	f
+printQnInfo	old/svmsgdqn.cpp	/^SgdQn::printQnInfo(const FVector &Bb, double init)$/;"	f	class:SgdQn
+readClasses	prep_rcv1.cpp	/^readClasses(const char *fname)$/;"	f
+readDocs	prep_rcv1.cpp	/^readDocs(const char *fname, docs_t &docs, bool freezedico=false)$/;"	f
+renorm	svmasgd.cpp	/^SvmAsgd::renorm()$/;"	f	class:SvmAsgd
+renorm	svmimplicit.cpp	/^SvmIsgd::renorm()$/;"	f	class:SvmIsgd
+renorm	svmsag.cpp	/^SvmSag::renorm()$/;"	f	class:SvmSag
+renorm	svmsgd.cpp	/^SvmSgd::renorm()$/;"	f	class:SvmSgd
+saveBinary	prep_alpha.cpp	/^saveBinary(const char *fname, xvec_t &xp, yvec_t &yp, $/;"	f
+saveBinary	prep_rcv1.cpp	/^saveBinary(const char *fname, docs_t &docs, intvector_t &ids)$/;"	f
+saveBinary	prep_webspam.cpp	/^saveBinary(const char *fname, xvec_t &xp, yvec_t &yp, $/;"	f
+saveSvmLight	prep_rcv1.cpp	/^saveSvmLight(const char *fname, docs_t &docs, intvector_t &ids)$/;"	f
+sd	svmsag.cpp	/^  FVector sd;      \/\/ saved dloss$/;"	m	class:SvmSag	file:
+sdimax	svmsag.cpp	/^  int     sdimax;  \/\/ high index$/;"	m	class:SvmSag	file:
+sdimin	svmsag.cpp	/^  int     sdimin;  \/\/ low index$/;"	m	class:SvmSag	file:
+setEta	svmsag.cpp	/^  void setEta(double x) { eta=x; }$/;"	f	class:SvmSag
+skip	old/svmolbfgs.cpp	/^  int skip;$/;"	m	class:olbfgs	file:
+skip	old/svmsgd2.cpp	/^  int skip;$/;"	m	class:SvmSgd	file:
+skip	old/svmsgdqn.cpp	/^  int skip;$/;"	m	class:SgdQn	file:
+ss	old/svmolbfgs.cpp	/^  vector<FVector> ss;$/;"	m	class:olbfgs	file:
+steps	old/svmsgdqn.cpp	/^double steps=1.;$/;"	v
+sum_i	old/svmolbfgs.cpp	/^  double sum_i;$/;"	m	class:olbfgs	file:
+t	old/svmolbfgs.cpp	/^  double  t;$/;"	m	class:olbfgs	file:
+t	old/svmsgd2.cpp	/^  double  t;$/;"	m	class:SvmSgd	file:
+t	old/svmsgdqn.cpp	/^  double  t;$/;"	m	class:SgdQn	file:
+t	svmasgd.cpp	/^  double  t;$/;"	m	class:SvmAsgd	file:
+t	svmimplicit.cpp	/^  double  t;$/;"	m	class:SvmIsgd	file:
+t	svmsag.cpp	/^  double  t;       \/\/ iteration counter$/;"	m	class:SvmSag	file:
+t	svmsgd.cpp	/^  double  t;$/;"	m	class:SvmSgd	file:
+t0	old/svmolbfgs.cpp	/^  double t0;$/;"	m	class:olbfgs	file:
+t0	old/svmsgdqn.cpp	/^  double  t0;$/;"	m	class:SgdQn	file:
+t0	old/svmsgdqn.cpp	/^double t0 = 0;$/;"	v
+test	old/svmcg.cpp	/^SvmCg::test(int imin, int imax, $/;"	f	class:SvmCg
+test	old/svmolbfgs.cpp	/^olbfgs::test(int imin, int imax, $/;"	f	class:olbfgs
+test	old/svmsgd2.cpp	/^SvmSgd::test(int imin, int imax, $/;"	f	class:SvmSgd
+test	old/svmsgdqn.cpp	/^SgdQn::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix, bool verb, FVector &infos)$/;"	f	class:SgdQn
+test	prep_rcv1.cpp	/^docs_t test;$/;"	v
+test	svmasgd.cpp	/^SvmAsgd::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmAsgd
+test	svmimplicit.cpp	/^SvmIsgd::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmIsgd
+test	svmsag.cpp	/^SvmSag::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSag
+test	svmsgd.cpp	/^SvmSgd::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSgd
+testOne	svmasgd.cpp	/^SvmAsgd::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmAsgd
+testOne	svmimplicit.cpp	/^SvmIsgd::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmIsgd
+testOne	svmsag.cpp	/^SvmSag::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmSag
+testOne	svmsgd.cpp	/^SvmSgd::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmSgd
+testfile	old/svmcg.cpp	/^string testfile;$/;"	v
+testfile	old/svmolbfgs.cpp	/^string testfile;$/;"	v
+testfile	old/svmsgd2.cpp	/^string testfile;$/;"	v
+testfile	old/svmsgdqn.cpp	/^string testfile;$/;"	v
+testfile	svmasgd.cpp	/^const char *testfile = 0;$/;"	v
+testfile	svmimplicit.cpp	/^const char *testfile = 0;$/;"	v
+testfile	svmsag.cpp	/^const char *testfile = 0;$/;"	v
+testfile	svmsgd.cpp	/^const char *testfile = 0;$/;"	v
+testid	prep_rcv1.cpp	/^intvector_t testid;$/;"	v
+train	old/svmcg.cpp	/^SvmCg::train(int imin, int imax, $/;"	f	class:SvmCg
+train	old/svmolbfgs.cpp	/^olbfgs::train(int imin, int imax, $/;"	f	class:olbfgs
+train	old/svmsgd2.cpp	/^SvmSgd::train(int imin, int imax, $/;"	f	class:SvmSgd
+train	old/svmsgdqn.cpp	/^SgdQn::train(int imin, int imax, $/;"	f	class:SgdQn
+train	prep_rcv1.cpp	/^docs_t train;$/;"	v
+train	svmasgd.cpp	/^SvmAsgd::train(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmAsgd
+train	svmimplicit.cpp	/^SvmIsgd::train(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmIsgd
+train	svmsgd.cpp	/^SvmSgd::train(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSgd
+trainInit	svmsag.cpp	/^SvmSag::trainInit(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSag
+trainOne	svmasgd.cpp	/^SvmAsgd::trainOne(const SVector &x, double y, double eta, double mu)$/;"	f	class:SvmAsgd
+trainOne	svmimplicit.cpp	/^void SvmIsgd::trainOne(const SVector &x, double y, double eta)$/;"	f	class:SvmIsgd
+trainOne	svmsag.cpp	/^SvmSag::trainOne(const SVector &x, double y, double eta, int i)$/;"	f	class:SvmSag
+trainOne	svmsgd.cpp	/^SvmSgd::trainOne(const SVector &x, double y, double eta)$/;"	f	class:SvmSgd
+trainSag	svmsag.cpp	/^SvmSag::trainSag(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSag
+trainSgdOne	svmsag.cpp	/^SvmSag::trainSgdOne(const SVector &x, double y, double eta, int i)$/;"	f	class:SvmSag
+trainfile	old/svmcg.cpp	/^string trainfile;$/;"	v
+trainfile	old/svmolbfgs.cpp	/^string trainfile;$/;"	v
+trainfile	old/svmsgd2.cpp	/^string trainfile;$/;"	v
+trainfile	old/svmsgdqn.cpp	/^string trainfile;$/;"	v
+trainfile	svmasgd.cpp	/^const char *trainfile = 0;$/;"	v
+trainfile	svmimplicit.cpp	/^const char *trainfile = 0;$/;"	v
+trainfile	svmsag.cpp	/^const char *trainfile = 0;$/;"	v
+trainfile	svmsgd.cpp	/^const char *trainfile = 0;$/;"	v
+trainid	prep_rcv1.cpp	/^intvector_t trainid;$/;"	v
+trainsize	old/svmcg.cpp	/^int trainsize = -1;$/;"	v
+trainsize	old/svmolbfgs.cpp	/^int trainsize = -1;$/;"	v
+trainsize	old/svmsgd2.cpp	/^int trainsize = -1;$/;"	v
+trainsize	old/svmsgdqn.cpp	/^int trainsize = -1;$/;"	v
+tstart	svmasgd.cpp	/^  double  tstart;$/;"	m	class:SvmAsgd	file:
+u	old/svmcg.cpp	/^  FVector u;$/;"	m	class:SvmCg	file:
+uniform_int_generator	svmsag.cpp	/^  uniform_int_generator(int imin, int imax) : imin(imin),imax(imax) {}$/;"	f	struct:uniform_int_generator
+uniform_int_generator	svmsag.cpp	/^struct uniform_int_generator { $/;"	s	file:
+uniform_int_generator	svmsag.cpp	/^typedef std::tr1::uniform_int<int> uniform_int_generator;$/;"	t	file:
+uniform_int_generator	svmsag.cpp	/^typedef std::uniform_int_distribution<int> uniform_int_generator;$/;"	t	file:
+usage	old/svmcg.cpp	/^usage()$/;"	f
+usage	old/svmolbfgs.cpp	/^usage()$/;"	f
+usage	old/svmsgd2.cpp	/^usage()$/;"	f
+usage	old/svmsgdqn.cpp	/^usage()$/;"	f
+usage	svmasgd.cpp	/^usage(const char *progname)$/;"	f
+usage	svmimplicit.cpp	/^usage(const char *progname)$/;"	f
+usage	svmsag.cpp	/^usage(const char *progname)$/;"	f
+usage	svmsgd.cpp	/^usage(const char *progname)$/;"	f
+uu	old/svmcg.cpp	/^  double uu;$/;"	m	class:SvmCg	file:
+w	old/svmcg.cpp	/^  FVector w;$/;"	m	class:SvmCg	file:
+w	old/svmolbfgs.cpp	/^  FVector w;$/;"	m	class:olbfgs	file:
+w	old/svmsgd2.cpp	/^  FVector w;$/;"	m	class:SvmSgd	file:
+w	old/svmsgdqn.cpp	/^  FVector w;$/;"	m	class:SgdQn	file:
+w	svmasgd.cpp	/^  FVector w;$/;"	m	class:SvmAsgd	file:
+w	svmimplicit.cpp	/^  FVector w;$/;"	m	class:SvmIsgd	file:
+w	svmsag.cpp	/^  FVector w;       \/\/ weights$/;"	m	class:SvmSag	file:
+w	svmsgd.cpp	/^  FVector w;$/;"	m	class:SvmSgd	file:
+wBias	svmasgd.cpp	/^  double  wBias;$/;"	m	class:SvmAsgd	file:
+wBias	svmimplicit.cpp	/^  double  wBias;$/;"	m	class:SvmIsgd	file:
+wBias	svmsag.cpp	/^  double  wBias;   \/\/ bias$/;"	m	class:SvmSag	file:
+wBias	svmsgd.cpp	/^  double  wBias;$/;"	m	class:SvmSgd	file:
+wDivisor	svmasgd.cpp	/^  double  wDivisor;$/;"	m	class:SvmAsgd	file:
+wDivisor	svmimplicit.cpp	/^  double  wDivisor;$/;"	m	class:SvmIsgd	file:
+wDivisor	svmsgd.cpp	/^  double  wDivisor;$/;"	m	class:SvmSgd	file:
+wFraction	svmasgd.cpp	/^  double  wFraction;$/;"	m	class:SvmAsgd	file:
+wa	svmsag.cpp	/^  double  wa;      \/\/ actual w is wa*w + wb*g$/;"	m	class:SvmSag	file:
+wb	svmsag.cpp	/^  double  wb;      \/\/ initially wa=1, wb=0$/;"	m	class:SvmSag	file:
+wnorm	svmasgd.cpp	/^SvmAsgd::wnorm()$/;"	f	class:SvmAsgd
+wnorm	svmimplicit.cpp	/^SvmIsgd::wnorm()$/;"	f	class:SvmIsgd
+wnorm	svmsag.cpp	/^SvmSag::wnorm()$/;"	f	class:SvmSag
+wnorm	svmsgd.cpp	/^SvmSgd::wnorm()$/;"	f	class:SvmSgd
+wu	old/svmcg.cpp	/^  double wu;$/;"	m	class:SvmCg	file:
+ww	old/svmcg.cpp	/^  double ww;$/;"	m	class:SvmCg	file:
+xtest	old/svmcg.cpp	/^xvec_t xtest;$/;"	v
+xtest	old/svmolbfgs.cpp	/^xvec_t xtest;$/;"	v
+xtest	old/svmsgd2.cpp	/^xvec_t xtest;$/;"	v
+xtest	old/svmsgdqn.cpp	/^xvec_t xtest;$/;"	v
+xtest	svmasgd.cpp	/^xvec_t xtest;$/;"	v
+xtest	svmimplicit.cpp	/^xvec_t xtest;$/;"	v
+xtest	svmsag.cpp	/^xvec_t xtest;$/;"	v
+xtest	svmsgd.cpp	/^xvec_t xtest;$/;"	v
+xtrain	old/svmcg.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	old/svmolbfgs.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	old/svmsgd2.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	old/svmsgdqn.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svmasgd.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svmimplicit.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svmsag.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svmsgd.cpp	/^xvec_t xtrain;$/;"	v
+xvec_t	data.h	/^typedef std::vector<SVector> xvec_t;$/;"	t
+xvec_t	old/svmcg.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	old/svmolbfgs.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	old/svmsgd2.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	old/svmsgdqn.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	prep_alpha.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	prep_webspam.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+ys	old/svmolbfgs.cpp	/^  vector<FVector> ys;$/;"	m	class:olbfgs	file:
+ytest	old/svmcg.cpp	/^yvec_t ytest;$/;"	v
+ytest	old/svmolbfgs.cpp	/^yvec_t ytest;$/;"	v
+ytest	old/svmsgd2.cpp	/^yvec_t ytest;$/;"	v
+ytest	old/svmsgdqn.cpp	/^yvec_t ytest;$/;"	v
+ytest	svmasgd.cpp	/^yvec_t ytest;$/;"	v
+ytest	svmimplicit.cpp	/^yvec_t ytest;$/;"	v
+ytest	svmsag.cpp	/^yvec_t ytest;$/;"	v
+ytest	svmsgd.cpp	/^yvec_t ytest;$/;"	v
+ytrain	old/svmcg.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	old/svmolbfgs.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	old/svmsgd2.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	old/svmsgdqn.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svmasgd.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svmimplicit.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svmsag.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svmsgd.cpp	/^yvec_t ytrain;$/;"	v
+yux	old/svmcg.cpp	/^  FVector yux;$/;"	m	class:SvmCg	file:
+yvec_t	data.h	/^typedef std::vector<double>  yvec_t;$/;"	t
+yvec_t	old/svmcg.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	old/svmolbfgs.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	old/svmsgd2.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	old/svmsgdqn.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	prep_alpha.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	prep_webspam.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+ywx	old/svmcg.cpp	/^  FVector ywx;$/;"	m	class:SvmCg	file:
+~Loader	data.cpp	/^Loader::~Loader()$/;"	f	class:Loader

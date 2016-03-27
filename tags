@@ -1,0 +1,1315 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSERT_H	lib/assert.h	23;"	d
+AScorer	crf/crfasgd.cpp	/^AScorer::AScorer(const Sentence &s_, const Dictionary &d_, Weights &ww_)$/;"	f	class:AScorer
+AScorer	crf/crfasgd.cpp	/^class AScorer : public Scorer$/;"	c	file:
+B	svm/old/svmsgdqn.cpp	/^  FVector B;$/;"	m	class:SgdQn	file:
+BIAS	svm/old/svmsgd2.cpp	62;"	d	file:
+BIAS	svm/svmasgd.cpp	49;"	d	file:
+BIAS	svm/svmimplicit.cpp	64;"	d	file:
+BIAS	svm/svmsag.cpp	72;"	d	file:
+BIAS	svm/svmsgd.cpp	51;"	d	file:
+Bc	svm/old/svmsgdqn.cpp	/^  FVector Bc;$/;"	m	class:SgdQn	file:
+Byte	win/zlib/zconf.h	/^typedef unsigned char  Byte;  \/* 8 bits *\/$/;"	t
+Byte	win/zlib/zconf.h	123;"	d
+Bytef	win/zlib/zconf.h	/^   typedef Byte  FAR Bytef;$/;"	t
+Bytef	win/zlib/zconf.h	124;"	d
+Bytef	win/zlib/zconf.h	372;"	d
+CXX	crf/Makefile	/^CXX=g++$/;"	m
+CXX	svm/Makefile	/^CXX=g++$/;"	m
+CXX	svm/old/Makefile	/^CXX=g++$/;"	m
+CXXFLAGS	crf/Makefile	/^CXXFLAGS= ${OPTS} -Wall -I$L$/;"	m
+CXXFLAGS	svm/Makefile	/^CXXFLAGS= ${OPTS} ${OPT} -Wall -I$L$/;"	m
+CXXFLAGS	svm/old/Makefile	/^CXXFLAGS= ${OPTS} ${OPT} -Wall -I$L$/;"	m
+CrfSgd	crf/crfasgd.cpp	/^CrfSgd::CrfSgd()$/;"	f	class:CrfSgd
+CrfSgd	crf/crfasgd.cpp	/^class CrfSgd$/;"	c	file:
+CrfSgd	crf/crfsgd.cpp	/^CrfSgd::CrfSgd()$/;"	f	class:CrfSgd
+CrfSgd	crf/crfsgd.cpp	/^class CrfSgd$/;"	c	file:
+DATADIR	svm/prep_alpha.cpp	34;"	d	file:
+DATADIR	svm/prep_rcv1.cpp	310;"	d	file:
+DATADIR	svm/prep_webspam.cpp	34;"	d	file:
+DATAFILE	svm/prep_alpha.cpp	35;"	d	file:
+DATAFILE	svm/prep_webspam.cpp	35;"	d	file:
+DATATEST	svm/prep_alpha.cpp	36;"	d	file:
+DATATEST	svm/prep_webspam.cpp	36;"	d	file:
+DATA_H	svm/data.h	20;"	d
+DEF	svm/svmasgd.cpp	300;"	d	file:
+DEF	svm/svmasgd.cpp	312;"	d	file:
+DEF	svm/svmimplicit.cpp	301;"	d	file:
+DEF	svm/svmimplicit.cpp	311;"	d	file:
+DEF	svm/svmsag.cpp	352;"	d	file:
+DEF	svm/svmsag.cpp	364;"	d	file:
+DEF	svm/svmsgd.cpp	253;"	d	file:
+DEF	svm/svmsgd.cpp	263;"	d	file:
+Dictionary	crf/crfasgd.cpp	/^  Dictionary() : index(0) { }$/;"	f	class:Dictionary
+Dictionary	crf/crfasgd.cpp	/^class Dictionary$/;"	c	file:
+Dictionary	crf/crfsgd.cpp	/^  Dictionary() : index(0) { }$/;"	f	class:Dictionary
+Dictionary	crf/crfsgd.cpp	/^class Dictionary$/;"	c	file:
+EXACT_EXPONENTIAL	crf/crfasgd.cpp	112;"	d	file:
+EXACT_EXPONENTIAL	crf/crfsgd.cpp	112;"	d	file:
+FAR	win/zlib/zconf.h	289;"	d
+FAR	win/zlib/zconf.h	291;"	d
+FAR	win/zlib/zconf.h	298;"	d
+FAR	win/zlib/zconf.h	300;"	d
+FAR	win/zlib/zconf.h	324;"	d
+FAR	win/zlib/zconf.h	361;"	d
+FMatrix	lib/matrices.h	/^  FMatrix() {}$/;"	f	class:FMatrix
+FMatrix	lib/matrices.h	/^  FMatrix(int rows, int cols) { resize(rows, cols); }$/;"	f	class:FMatrix
+FMatrix	lib/matrices.h	/^class FMatrix$/;"	c
+FVector	lib/vectors.cpp	/^FVector::FVector()$/;"	f	class:FVector
+FVector	lib/vectors.cpp	/^FVector::FVector(const SVector &v)$/;"	f	class:FVector
+FVector	lib/vectors.cpp	/^FVector::FVector(int n)$/;"	f	class:FVector
+FVector	lib/vectors.h	/^class FVector$/;"	c
+GScorer	crf/crfsgd.cpp	/^GScorer::GScorer(const Sentence &s_,const Dictionary &d_, $/;"	f	class:GScorer
+GScorer	crf/crfsgd.cpp	/^class GScorer : public Scorer$/;"	c	file:
+GZSTREAM_H	lib/gzstream.h	30;"	d
+GZSTREAM_NAMESPACE	lib/gzstream.cpp	/^namespace GZSTREAM_NAMESPACE {$/;"	n	file:
+GZSTREAM_NAMESPACE	lib/gzstream.h	/^namespace GZSTREAM_NAMESPACE {$/;"	n
+HAS_UNIFORMINT	svm/svmsag.cpp	38;"	d	file:
+HAS_UNIFORMINTDISTRIBUTION	svm/svmsag.cpp	36;"	d	file:
+HAS_UNORDEREDMAP	crf/crfasgd.cpp	44;"	d	file:
+HAS_UNORDEREDMAP	crf/crfsgd.cpp	44;"	d	file:
+HAS_UNORDEREDMAP	svm/prep_rcv1.cpp	35;"	d	file:
+HINGELOSS	svm/old/svmcg.cpp	53;"	d	file:
+HINGELOSS	svm/old/svmolbfgs.cpp	54;"	d	file:
+HINGELOSS	svm/old/svmsgd2.cpp	54;"	d	file:
+HINGELOSS	svm/old/svmsgdqn.cpp	134;"	d	file:
+HUGE_VAL	crf/crfasgd.cpp	72;"	d	file:
+HUGE_VAL	crf/crfsgd.cpp	72;"	d	file:
+HingeLoss	svm/loss.h	/^struct HingeLoss$/;"	s
+IEEE754_EXPONENTIAL	crf/crfasgd.cpp	113;"	d	file:
+IEEE754_EXPONENTIAL	crf/crfsgd.cpp	113;"	d	file:
+INCS	svm/Makefile	/^INCS = $L\/vectors.h $L\/gzstream.h $L\/timer.h $L\/wrapper.h $L\/assert.h$/;"	m
+L	crf/Makefile	/^L=..\/lib$/;"	m
+L	svm/Makefile	/^L=..\/lib$/;"	m
+L	svm/old/Makefile	/^L=..\/..\/lib$/;"	m
+LIBS	crf/Makefile	/^LIBS = -lz -lm$/;"	m
+LIBS	svm/Makefile	/^LIBS = -lz -lm$/;"	m
+LIBS	svm/old/Makefile	/^LIBS = -lz -lm$/;"	m
+LOGLOSS	svm/old/svmcg.cpp	56;"	d	file:
+LOGLOSS	svm/old/svmolbfgs.cpp	57;"	d	file:
+LOGLOSS	svm/old/svmsgd2.cpp	57;"	d	file:
+LOGLOSS	svm/old/svmsgdqn.cpp	137;"	d	file:
+LOGLOSSMARGIN	svm/old/svmcg.cpp	57;"	d	file:
+LOGLOSSMARGIN	svm/old/svmolbfgs.cpp	58;"	d	file:
+LOGLOSSMARGIN	svm/old/svmsgd2.cpp	58;"	d	file:
+LOGLOSSMARGIN	svm/old/svmsgdqn.cpp	138;"	d	file:
+LOSS	svm/old/svmcg.cpp	44;"	d	file:
+LOSS	svm/old/svmolbfgs.cpp	45;"	d	file:
+LOSS	svm/old/svmsgd2.cpp	45;"	d	file:
+LOSS	svm/old/svmsgdqn.cpp	125;"	d	file:
+LOSS	svm/svmasgd.cpp	41;"	d	file:
+LOSS	svm/svmimplicit.cpp	55;"	d	file:
+LOSS	svm/svmsag.cpp	63;"	d	file:
+LOSS	svm/svmsgd.cpp	42;"	d	file:
+LOSS_H	svm/loss.h	20;"	d
+Loader	svm/data.cpp	/^Loader::Loader(const char *name)$/;"	f	class:Loader
+Loader	svm/data.h	/^class Loader$/;"	c
+LogLoss	svm/loss.h	/^struct LogLoss$/;"	s
+MAKE	Makefile	/^MAKE=make$/;"	m
+MATRICES_H	lib/matrices.h	24;"	d
+MAXSEG_64K	win/zlib/zconf.h	179;"	d
+MAX_MEM_LEVEL	win/zlib/zconf.h	232;"	d
+MAX_MEM_LEVEL	win/zlib/zconf.h	234;"	d
+MAX_WBITS	win/zlib/zconf.h	244;"	d
+MSDOS	win/zlib/zconf.h	153;"	d
+NAM	svm/svmasgd.cpp	299;"	d	file:
+NAM	svm/svmasgd.cpp	311;"	d	file:
+NAM	svm/svmimplicit.cpp	300;"	d	file:
+NAM	svm/svmimplicit.cpp	310;"	d	file:
+NAM	svm/svmsag.cpp	351;"	d	file:
+NAM	svm/svmsag.cpp	363;"	d	file:
+NAM	svm/svmsgd.cpp	252;"	d	file:
+NAM	svm/svmsgd.cpp	262;"	d	file:
+NAME	svm/svmasgd.cpp	381;"	d	file:
+NAME	svm/svmimplicit.cpp	375;"	d	file:
+NAME	svm/svmsag.cpp	434;"	d	file:
+NAME	svm/svmsgd.cpp	327;"	d	file:
+NAME2	svm/svmasgd.cpp	382;"	d	file:
+NAME2	svm/svmimplicit.cpp	376;"	d	file:
+NAME2	svm/svmsag.cpp	435;"	d	file:
+NAME2	svm/svmsgd.cpp	328;"	d	file:
+NO_DUMMY_DECL	win/zlib/zconf.h	226;"	d
+OBJS	crf/Makefile	/^OBJS = vectors.o matrices.o gzstream.o pstream.o timer.o$/;"	m
+OBJS	svm/Makefile	/^OBJS = vectors.o gzstream.o timer.o$/;"	m
+OF	win/zlib/zconf.h	264;"	d
+OF	win/zlib/zconf.h	266;"	d
+OPT	svm/Makefile	/^OPT=$/;"	m
+OPT	svm/old/Makefile	/^OPT=$/;"	m
+OPTS	crf/Makefile	/^OPTS=-g -O2$/;"	m
+OPTS	svm/Makefile	/^OPTS=-g -O2$/;"	m
+OPTS	svm/old/Makefile	/^OPTS=-g -O2$/;"	m
+OS2	win/zlib/zconf.h	156;"	d
+PROGRAMS	crf/Makefile	/^PROGRAMS = crfsgd crfasgd$/;"	m
+PROGRAMS	svm/Makefile	/^PROGRAMS = prep_rcv1 prep_alpha prep_webspam svmsgd svmasgd svmimplicit$/;"	m
+PROGRAMS	svm/old/Makefile	/^PROGRAMS = svmsgd2 svmsgdqn svmcg svmolbfgs$/;"	m
+PSTREAM_H	lib/pstream.h	21;"	d
+Pair	lib/vectors.h	/^  struct Pair $/;"	s	class:SVector
+Private	svm/data.cpp	/^struct Loader::Private$/;"	s	class:Loader	file:
+REGULARIZEBIAS	svm/old/svmsgd2.cpp	65;"	d	file:
+REGULARIZEDBIAS	svm/old/svmcg.cpp	60;"	d	file:
+REGULARIZED_BIAS	svm/svmasgd.cpp	52;"	d	file:
+REGULARIZED_BIAS	svm/svmimplicit.cpp	67;"	d	file:
+REGULARIZED_BIAS	svm/svmsag.cpp	75;"	d	file:
+REGULARIZED_BIAS	svm/svmsgd.cpp	54;"	d	file:
+Rep	crf/crfasgd.cpp	/^  struct Rep $/;"	s	class:Sentence	file:
+Rep	crf/crfsgd.cpp	/^  struct Rep $/;"	s	class:Sentence	file:
+Rep	lib/matrices.h	/^    Rep() : ncols(0), nrows(0) { }$/;"	f	struct:FMatrix::Rep
+Rep	lib/matrices.h	/^    Rep() : ncols(0), nrows(0) { }$/;"	f	struct:SMatrix::Rep
+Rep	lib/matrices.h	/^  struct Rep$/;"	s	class:FMatrix
+Rep	lib/matrices.h	/^  struct Rep$/;"	s	class:SMatrix
+Rep	lib/vectors.h	/^    Rep() : npairs(0), mpairs(-1), size(0), pairs(0) {}$/;"	f	struct:SVector::Rep
+Rep	lib/vectors.h	/^    Rep() : size(0), data(0) {}$/;"	f	struct:FVector::Rep
+Rep	lib/vectors.h	/^  struct Rep$/;"	s	class:FVector
+Rep	lib/vectors.h	/^  struct Rep$/;"	s	class:SVector
+SEEK_CUR	win/zlib/zconf.h	431;"	d
+SEEK_END	win/zlib/zconf.h	432;"	d
+SEEK_SET	win/zlib/zconf.h	430;"	d
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+SIPairCompare	crf/crfasgd.cpp	/^struct SIPairCompare {$/;"	s	file:
+SIPairCompare	crf/crfsgd.cpp	/^struct SIPairCompare {$/;"	s	file:
+SMALL_MEDIUM	win/zlib/zconf.h	287;"	d
+SMALL_MEDIUM	win/zlib/zconf.h	296;"	d
+SMOOTHHINGELOSS	svm/old/svmcg.cpp	54;"	d	file:
+SMOOTHHINGELOSS	svm/old/svmolbfgs.cpp	55;"	d	file:
+SMOOTHHINGELOSS	svm/old/svmsgd2.cpp	55;"	d	file:
+SMOOTHHINGELOSS	svm/old/svmsgdqn.cpp	135;"	d	file:
+SMatrix	lib/matrices.h	/^  SMatrix() {}$/;"	f	class:SMatrix
+SMatrix	lib/matrices.h	/^  SMatrix(int rows, int cols) { resize(rows,cols); }$/;"	f	class:SMatrix
+SMatrix	lib/matrices.h	/^class SMatrix$/;"	c
+SQUAREDHINGELOSS	svm/old/svmcg.cpp	55;"	d	file:
+SQUAREDHINGELOSS	svm/old/svmolbfgs.cpp	56;"	d	file:
+SQUAREDHINGELOSS	svm/old/svmsgd2.cpp	56;"	d	file:
+SQUAREDHINGELOSS	svm/old/svmsgdqn.cpp	136;"	d	file:
+STDC	win/zlib/zconf.h	187;"	d
+STDC	win/zlib/zconf.h	196;"	d
+STDC	win/zlib/zconf.h	199;"	d
+STDC	win/zlib/zconf.h	202;"	d
+STDC	win/zlib/zconf.h	205;"	d
+STDC	win/zlib/zconf.h	209;"	d
+STDC99	win/zlib/zconf.h	191;"	d
+SUBDIRS	Makefile	/^SUBDIRS=svm crf$/;"	m
+SVector	lib/vectors.cpp	/^SVector::SVector()$/;"	f	class:SVector
+SVector	lib/vectors.cpp	/^SVector::SVector(const FVector &v)$/;"	f	class:SVector
+SVector	lib/vectors.h	/^class SVector$/;"	c
+SYS16BIT	win/zlib/zconf.h	169;"	d
+Scorer	crf/crfasgd.cpp	/^Scorer::Scorer(const Sentence &s_, const Dictionary &d_, Weights &ww_)$/;"	f	class:Scorer
+Scorer	crf/crfasgd.cpp	/^class Scorer$/;"	c	file:
+Scorer	crf/crfsgd.cpp	/^Scorer::Scorer(const Sentence &s_, const Dictionary &d_, FVector &w_, double &c_)$/;"	f	class:Scorer
+Scorer	crf/crfsgd.cpp	/^class Scorer$/;"	c	file:
+Sentence	crf/crfasgd.cpp	/^  Sentence() {}$/;"	f	class:Sentence
+Sentence	crf/crfasgd.cpp	/^class Sentence$/;"	c	file:
+Sentence	crf/crfsgd.cpp	/^  Sentence() {}$/;"	f	class:Sentence
+Sentence	crf/crfsgd.cpp	/^class Sentence$/;"	c	file:
+SgdQn	svm/old/svmsgdqn.cpp	/^SgdQn::SgdQn(int dim, double l, double t0)$/;"	f	class:SgdQn
+SgdQn	svm/old/svmsgdqn.cpp	/^class SgdQn$/;"	c	file:
+SmoothHingeLoss	svm/loss.h	/^struct SmoothHingeLoss$/;"	s
+SquaredHingeLoss	svm/loss.h	/^struct SquaredHingeLoss$/;"	s
+SvmAsgd	svm/svmasgd.cpp	/^SvmAsgd::SvmAsgd(int dim, double lambda, double tstart, double eta0)$/;"	f	class:SvmAsgd
+SvmAsgd	svm/svmasgd.cpp	/^class SvmAsgd$/;"	c	file:
+SvmCg	svm/old/svmcg.cpp	/^SvmCg::SvmCg(int dim, double l, int trainsize)$/;"	f	class:SvmCg
+SvmCg	svm/old/svmcg.cpp	/^class SvmCg$/;"	c	file:
+SvmIsgd	svm/svmimplicit.cpp	/^SvmIsgd::SvmIsgd(int dim, double lambda, double eta0)$/;"	f	class:SvmIsgd
+SvmIsgd	svm/svmimplicit.cpp	/^class SvmIsgd$/;"	c	file:
+SvmSag	svm/svmsag.cpp	/^SvmSag::SvmSag(int dim, double lambda, double eta)$/;"	f	class:SvmSag
+SvmSag	svm/svmsag.cpp	/^class SvmSag$/;"	c	file:
+SvmSgd	svm/old/svmsgd2.cpp	/^SvmSgd::SvmSgd(int dim, double l)$/;"	f	class:SvmSgd
+SvmSgd	svm/old/svmsgd2.cpp	/^class SvmSgd$/;"	c	file:
+SvmSgd	svm/svmsgd.cpp	/^SvmSgd::SvmSgd(int dim, double lambda, double eta0)$/;"	f	class:SvmSgd
+SvmSgd	svm/svmsgd.cpp	/^class SvmSgd$/;"	c	file:
+TIMER_H	lib/timer.h	21;"	d
+TScorer	crf/crfasgd.cpp	/^TScorer::TScorer(const Sentence &s_, const Dictionary &d_, Weights &ww_, $/;"	f	class:TScorer
+TScorer	crf/crfasgd.cpp	/^class TScorer : public Scorer$/;"	c	file:
+TScorer	crf/crfsgd.cpp	/^TScorer::TScorer(const Sentence &s_, const Dictionary &d_,$/;"	f	class:TScorer
+TScorer	crf/crfsgd.cpp	/^class TScorer : public Scorer$/;"	c	file:
+Timer	lib/timer.cpp	/^Timer::Timer()$/;"	f	class:Timer
+Timer	lib/timer.h	/^class Timer$/;"	c
+UNALIGNED_OK	win/zlib/zconf.h	182;"	d
+USE_FORWARD_BACKWARD	crf/crfasgd.cpp	1215;"	d	file:
+USE_FORWARD_BACKWARD	crf/crfsgd.cpp	1108;"	d	file:
+VECTORS_H	lib/vectors.h	22;"	d
+VFLOAT	lib/vectors.h	37;"	d
+VFloat	lib/vectors.h	/^typedef VFLOAT VFloat;$/;"	t
+WIN32	win/zlib/zconf.h	163;"	d
+WINDOWS	win/zlib/zconf.h	159;"	d
+WRAPPER_H	lib/wrapper.h	23;"	d
+Weights	crf/crfasgd.cpp	/^Weights::Weights()$/;"	f	class:Weights
+Weights	crf/crfasgd.cpp	/^Weights::Weights(int nParams, int nOutputs)$/;"	f	class:Weights
+Weights	crf/crfasgd.cpp	/^struct Weights$/;"	s	file:
+Wrapper	lib/wrapper.h	/^  Wrapper() $/;"	f	class:Wrapper
+Wrapper	lib/wrapper.h	/^  Wrapper(Rep *rep)$/;"	f	class:Wrapper
+Wrapper	lib/wrapper.h	/^  Wrapper(const Wrapper<Rep> &other) $/;"	f	class:Wrapper
+Wrapper	lib/wrapper.h	/^class Wrapper$/;"	c
+ZCONF_H	win/zlib/zconf.h	9;"	d
+ZEXPORT	win/zlib/zconf.h	329;"	d
+ZEXPORT	win/zlib/zconf.h	341;"	d
+ZEXPORT	win/zlib/zconf.h	344;"	d
+ZEXPORT	win/zlib/zconf.h	354;"	d
+ZEXPORTVA	win/zlib/zconf.h	331;"	d
+ZEXPORTVA	win/zlib/zconf.h	333;"	d
+ZEXPORTVA	win/zlib/zconf.h	342;"	d
+ZEXPORTVA	win/zlib/zconf.h	345;"	d
+ZEXPORTVA	win/zlib/zconf.h	357;"	d
+ZEXTERN	win/zlib/zconf.h	312;"	d
+ZEXTERN	win/zlib/zconf.h	314;"	d
+ZEXTERN	win/zlib/zconf.h	351;"	d
+ZLIB_H	win/zlib/zlib.h	32;"	d
+ZLIB_VERNUM	win/zlib/zlib.h	41;"	d
+ZLIB_VERSION	win/zlib/zlib.h	40;"	d
+ZLIB_VER_MAJOR	win/zlib/zlib.h	42;"	d
+ZLIB_VER_MINOR	win/zlib/zlib.h	43;"	d
+ZLIB_VER_REVISION	win/zlib/zlib.h	44;"	d
+ZLIB_VER_SUBREVISION	win/zlib/zlib.h	45;"	d
+Z_ARG	win/zlib/zconf.h	272;"	d
+Z_ARG	win/zlib/zconf.h	274;"	d
+Z_ASCII	win/zlib/zlib.h	201;"	d
+Z_BEST_COMPRESSION	win/zlib/zlib.h	188;"	d
+Z_BEST_SPEED	win/zlib/zlib.h	187;"	d
+Z_BINARY	win/zlib/zlib.h	199;"	d
+Z_BLOCK	win/zlib/zlib.h	169;"	d
+Z_BUF_ERROR	win/zlib/zlib.h	180;"	d
+Z_DATA_ERROR	win/zlib/zlib.h	178;"	d
+Z_DEFAULT_COMPRESSION	win/zlib/zlib.h	189;"	d
+Z_DEFAULT_STRATEGY	win/zlib/zlib.h	196;"	d
+Z_DEFLATED	win/zlib/zlib.h	205;"	d
+Z_ERRNO	win/zlib/zlib.h	176;"	d
+Z_FILTERED	win/zlib/zlib.h	192;"	d
+Z_FINISH	win/zlib/zlib.h	168;"	d
+Z_FIXED	win/zlib/zlib.h	195;"	d
+Z_FULL_FLUSH	win/zlib/zlib.h	167;"	d
+Z_HAVE_STDARG_H	win/zlib/zconf.h	396;"	d
+Z_HAVE_UNISTD_H	win/zlib/zconf.h	392;"	d
+Z_HUFFMAN_ONLY	win/zlib/zlib.h	193;"	d
+Z_LARGE	win/zlib/zconf.h	416;"	d
+Z_MEM_ERROR	win/zlib/zlib.h	179;"	d
+Z_NEED_DICT	win/zlib/zlib.h	175;"	d
+Z_NO_COMPRESSION	win/zlib/zlib.h	186;"	d
+Z_NO_FLUSH	win/zlib/zlib.h	164;"	d
+Z_NULL	win/zlib/zlib.h	208;"	d
+Z_OK	win/zlib/zlib.h	173;"	d
+Z_PARTIAL_FLUSH	win/zlib/zlib.h	165;"	d
+Z_PREFIX_SET	win/zlib/zconf.h	18;"	d
+Z_RLE	win/zlib/zlib.h	194;"	d
+Z_STREAM_END	win/zlib/zlib.h	174;"	d
+Z_STREAM_ERROR	win/zlib/zlib.h	177;"	d
+Z_SYNC_FLUSH	win/zlib/zlib.h	166;"	d
+Z_TEXT	win/zlib/zlib.h	200;"	d
+Z_TREES	win/zlib/zlib.h	170;"	d
+Z_UNKNOWN	win/zlib/zlib.h	202;"	d
+Z_VERSION_ERROR	win/zlib/zlib.h	181;"	d
+_LARGEFILE64_SOURCE	win/zlib/zconf.h	412;"	d
+_NAME	svm/old/svmcg.cpp	48;"	d	file:
+_NAME	svm/old/svmolbfgs.cpp	49;"	d	file:
+_NAME	svm/old/svmsgd2.cpp	49;"	d	file:
+_NAME	svm/old/svmsgdqn.cpp	129;"	d	file:
+_NAME2	svm/old/svmcg.cpp	49;"	d	file:
+_NAME2	svm/old/svmolbfgs.cpp	50;"	d	file:
+_NAME2	svm/old/svmsgd2.cpp	50;"	d	file:
+_NAME2	svm/old/svmsgdqn.cpp	130;"	d	file:
+_dist_code	win/zlib/zconf.h	21;"	d
+_length_code	win/zlib/zconf.h	22;"	d
+_tr_align	win/zlib/zconf.h	23;"	d
+_tr_flush_block	win/zlib/zconf.h	24;"	d
+_tr_init	win/zlib/zconf.h	25;"	d
+_tr_stored_block	win/zlib/zconf.h	26;"	d
+_tr_tally	win/zlib/zconf.h	27;"	d
+a	crf/crfasgd.cpp	/^  FVector a;$/;"	m	struct:Weights	file:
+a	lib/timer.h	/^  double a, s;$/;"	m	class:Timer
+a	svm/svmasgd.cpp	/^  FVector a;$/;"	m	class:SvmAsgd	file:
+aBias	svm/svmasgd.cpp	/^  double  aBias;$/;"	m	class:SvmAsgd	file:
+aDivisor	crf/crfasgd.cpp	/^  VFloat  aDivisor;$/;"	m	struct:Weights	file:
+aDivisor	svm/svmasgd.cpp	/^  double  aDivisor;$/;"	m	class:SvmAsgd	file:
+add	lib/vectors.cpp	/^FVector::add(const FVector &v2)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^FVector::add(const FVector &v2, double c2)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^FVector::add(const FVector &v2, double c2, const FVector &q2)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^FVector::add(const SVector &v2)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^FVector::add(const SVector &v2, double c2)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^FVector::add(const SVector &v2, double c2, const FVector &q2)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^FVector::add(double c1)$/;"	f	class:FVector
+add	lib/vectors.cpp	/^SVector::add(const SVector &v2)$/;"	f	class:SVector
+add	lib/vectors.cpp	/^SVector::add(const SVector &v2, double c2)$/;"	f	class:SVector
+adjustEta	crf/crfasgd.cpp	/^CrfSgd::adjustEta(const dataset_t &data, int samples, double seta, Timer *tm)$/;"	f	class:CrfSgd
+adjustEta	crf/crfasgd.cpp	/^CrfSgd::adjustEta(double eta)$/;"	f	class:CrfSgd
+adjustEta	crf/crfsgd.cpp	/^CrfSgd::adjustEta(const dataset_t &data, int samples, $/;"	f	class:CrfSgd
+adjustEta	crf/crfsgd.cpp	/^CrfSgd::adjustEta(double eta)$/;"	f	class:CrfSgd
+adjustTstart	crf/crfasgd.cpp	/^CrfSgd::adjustTstart(double t)$/;"	f	class:CrfSgd
+adler	win/zlib/zlib.h	/^    uLong   adler;      \/* adler32 value of the uncompressed data *\/$/;"	m	struct:z_stream_s
+adler32	win/zlib/zconf.h	28;"	d
+adler32_combine	win/zlib/zconf.h	29;"	d
+adler32_combine	win/zlib/zlib.h	1685;"	d
+adler32_combine64	win/zlib/zconf.h	30;"	d
+alloc_func	win/zlib/zconf.h	125;"	d
+alloc_func	win/zlib/zlib.h	/^typedef voidpf (*alloc_func) OF((voidpf opaque, uInt items, uInt size));$/;"	t
+anorm	svm/svmasgd.cpp	/^SvmAsgd::anorm()$/;"	f	class:SvmAsgd
+assert	lib/assert.h	32;"	d
+assertfail	lib/assert.h	28;"	d
+avail_in	win/zlib/zlib.h	/^    uInt     avail_in;  \/* number of bytes available at next_in *\/$/;"	m	struct:z_stream_s
+avail_out	win/zlib/zlib.h	/^    uInt     avail_out; \/* remaining free space at next_out *\/$/;"	m	struct:z_stream_s
+avgstart	crf/crfasgd.cpp	/^double avgstart = 1;$/;"	v
+avgstart	svm/svmasgd.cpp	/^double avgstart = -1;$/;"	v
+b	crf/crfasgd.cpp	/^  SVector b(int i) const { return rep()->bFeatures.at(i); }$/;"	f	class:Sentence
+b	crf/crfsgd.cpp	/^  SVector b(int i) const { return rep()->bFeatures.at(i); }$/;"	f	class:Sentence
+bFeatures	crf/crfasgd.cpp	/^    svec_t bFeatures;$/;"	m	struct:Sentence::Rep	file:
+bFeatures	crf/crfsgd.cpp	/^    svec_t bFeatures;$/;"	m	struct:Sentence::Rep	file:
+bGradients	crf/crfasgd.cpp	/^  virtual void bGradients(const VFloat *g, int pos, int fy, int ny, int y) {}$/;"	f	class:Scorer
+bGradients	crf/crfasgd.cpp	/^TScorer::bGradients(const VFloat *g, int pos, int fy, int ny, int y)$/;"	f	class:TScorer
+bGradients	crf/crfsgd.cpp	/^  virtual void bGradients(const VFloat *g, int pos, int fy, int ny, int y) {}$/;"	f	class:Scorer
+bGradients	crf/crfsgd.cpp	/^GScorer::bGradients(const VFloat *g, int pos, int fy, int ny, int y)$/;"	f	class:GScorer
+bGradients	crf/crfsgd.cpp	/^TScorer::bGradients(const VFloat *g, int pos, int fy, int ny, int y)$/;"	f	class:TScorer
+bScores	crf/crfasgd.cpp	/^  vector<FMatrix> bScores;$/;"	m	class:Scorer	file:
+bScores	crf/crfsgd.cpp	/^  vector<FMatrix> bScores;$/;"	m	class:Scorer	file:
+bias	svm/old/svmolbfgs.cpp	/^  double  bias;$/;"	m	class:olbfgs	file:
+bias	svm/old/svmsgd2.cpp	/^  double  bias;$/;"	m	class:SvmSgd	file:
+binary	svm/data.cpp	/^  bool binary;$/;"	m	struct:Loader::Private	file:
+bscale	svm/old/svmsgd2.cpp	/^  double  bscale;$/;"	m	class:SvmSgd	file:
+bsize	lib/pstream.h	/^  static const int bsize = 512;$/;"	m	class:pstreambuf
+buf	lib/gzstream.h	/^    gzstreambuf buf;$/;"	m	class:GZSTREAM_NAMESPACE::gzstreambase
+buf	lib/pstream.h	/^  pstreambuf buf;$/;"	m	class:pstreambase
+buffer	lib/gzstream.h	/^    char             buffer[bufferSize]; \/\/ data buffer$/;"	m	class:GZSTREAM_NAMESPACE::gzstreambuf
+buffer	lib/pstream.h	/^  char buffer[bsize];$/;"	m	class:pstreambuf
+bufferSize	lib/gzstream.h	/^    static const int bufferSize = 47+256;    \/\/ size of data buff$/;"	m	class:GZSTREAM_NAMESPACE::gzstreambuf
+bz2	data/pascal/convert.py	/^import bz2$/;"	i
+c	crf/crfasgd.cpp	/^double c = 1;$/;"	v
+c	crf/crfsgd.cpp	/^double c = 1;$/;"	v
+calibrate	svm/old/svmolbfgs.cpp	/^olbfgs::calibrate(int imin, int imax, $/;"	f	class:olbfgs
+calibrate	svm/old/svmsgd2.cpp	/^SvmSgd::calibrate(int imin, int imax, $/;"	f	class:SvmSgd
+calibrate	svm/old/svmsgdqn.cpp	/^SgdQn::calibrate(int imin, int imax, $/;"	f	class:SgdQn
+cepochs	crf/crfasgd.cpp	/^int cepochs = 5;$/;"	v
+cepochs	crf/crfsgd.cpp	/^int cepochs = 5;$/;"	v
+charf	win/zlib/zconf.h	/^typedef char  FAR charf;$/;"	t
+charf	win/zlib/zconf.h	126;"	d
+checkTemplate	crf/crfasgd.cpp	/^checkTemplate(string tpl)$/;"	f
+checkTemplate	crf/crfsgd.cpp	/^checkTemplate(string tpl)$/;"	f
+classes	svm/prep_rcv1.cpp	/^classes_t classes;$/;"	v
+classes_t	svm/prep_rcv1.cpp	/^typedef hash_map<int,bool> classes_t;$/;"	t	file:
+clear	crf/crfasgd.cpp	/^Weights::clear()$/;"	f	class:Weights
+clear	crf/crfsgd.cpp	/^  void clear() { grad.clear(); }$/;"	f	class:GScorer
+clear	lib/vectors.cpp	/^FVector::clear()$/;"	f	class:FVector
+clear	lib/vectors.cpp	/^SVector::clear()$/;"	f	class:SVector
+close	lib/gzstream.cpp	/^gzstreambuf * gzstreambuf::close() {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+close	lib/gzstream.cpp	/^void gzstreambase::close() {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambase
+close	lib/pstream.cpp	/^pstreambase::close() {$/;"	f	class:pstreambase
+close	lib/pstream.cpp	/^pstreambuf::close() $/;"	f	class:pstreambuf
+cols	lib/matrices.h	/^  int cols() const { return rep()->ncols; }$/;"	f	class:FMatrix
+cols	lib/matrices.h	/^  int cols() const { return rep()->ncols; }$/;"	f	class:SMatrix
+columns	crf/crfasgd.cpp	/^    int columns;$/;"	m	struct:Sentence::Rep	file:
+columns	crf/crfasgd.cpp	/^  int columns() const { return rep()->columns; }$/;"	f	class:Sentence
+columns	crf/crfsgd.cpp	/^    int columns;$/;"	m	struct:Sentence::Rep	file:
+columns	crf/crfsgd.cpp	/^  int columns() const { return rep()->columns; }$/;"	f	class:Sentence
+combine	lib/vectors.cpp	/^FVector::combine(double c1, const SVector &v2, double c2)$/;"	f	class:FVector
+combine	lib/vectors.cpp	/^FVector::combine(double c1d, const FVector &v2, double c2d)$/;"	f	class:FVector
+combine	lib/vectors.cpp	/^SVector::combine(double c1, const SVector &v2, double c2)$/;"	f	class:SVector
+combine	lib/vectors.cpp	/^combine(const FVector &v1, double a1, const FVector &v2, double a2)$/;"	f
+combine	lib/vectors.cpp	/^combine(const FVector &v1, double a1, const SVector &v2, double a2)$/;"	f
+combine	lib/vectors.cpp	/^combine(const SVector &v1, double a1, const FVector &v2, double a2)$/;"	f
+combine	lib/vectors.cpp	/^combine(const SVector &v1, double a1, const SVector &v2, double a2)$/;"	f
+comm_max	win/zlib/zlib.h	/^    uInt    comm_max;   \/* space at comment (only when reading header) *\/$/;"	m	struct:gz_header_s
+comment	win/zlib/zlib.h	/^    Bytef   *comment;   \/* pointer to zero-terminated comment or Z_NULL *\/$/;"	m	struct:gz_header_s
+compress	win/zlib/zconf.h	32;"	d
+compress2	win/zlib/zconf.h	33;"	d
+compressBound	win/zlib/zconf.h	34;"	d
+compressed	svm/data.cpp	/^  bool compressed;$/;"	m	struct:Loader::Private	file:
+computeNormalizedTfIdf	svm/prep_rcv1.cpp	/^computeNormalizedTfIdf()$/;"	f
+computeScores	crf/crfasgd.cpp	/^AScorer::computeScores()$/;"	f	class:AScorer
+computeScores	crf/crfasgd.cpp	/^Scorer::computeScores()$/;"	f	class:Scorer
+computeScores	crf/crfsgd.cpp	/^Scorer::computeScores()$/;"	f	class:Scorer
+compute_inverse_ratio_and_clip	svm/old/svmsgdqn.cpp	/^compute_inverse_ratio_and_clip(FVector &w,$/;"	f
+config	svm/svmasgd.cpp	/^config(const char *progname)$/;"	f
+config	svm/svmimplicit.cpp	/^config(const char *progname)$/;"	f
+config	svm/svmsag.cpp	/^config(const char *progname)$/;"	f
+config	svm/svmsgd.cpp	/^config(const char *progname)$/;"	f
+conlleval	crf/crfasgd.cpp	/^const char *conlleval = ".\/conlleval -q";$/;"	v
+conlleval	crf/crfsgd.cpp	/^const char *conlleval = ".\/conlleval -q";$/;"	v
+const	win/zlib/zconf.h	214;"	d
+convert_dense_ascii	data/pascal/convert.py	/^def convert_dense_ascii(outf, fdat, flab, normalize=False, num=-1):$/;"	f
+convert_dna	data/pascal/convert.py	/^def convert_dna(outf, fdat, flab, num=-1):$/;"	f
+convert_img	data/pascal/convert.py	/^def convert_img(outf, fdat, flab, dims, normalize=False, num=-1):$/;"	f
+convert_webspam	data/pascal/convert.py	/^def convert_webspam(outf, fdat, flab, num=-1):$/;"	f
+copy	crf/crfasgd.cpp	/^    Rep *copy() { return new Rep(*this); }$/;"	f	struct:Sentence::Rep
+copy	crf/crfsgd.cpp	/^    Rep *copy() { return new Rep(*this); }$/;"	f	struct:Sentence::Rep
+copy	lib/matrices.h	/^    Rep *copy() { return new Rep(*this); }$/;"	f	struct:FMatrix::Rep
+copy	lib/matrices.h	/^    Rep *copy() { return new Rep(*this); }$/;"	f	struct:SMatrix::Rep
+copy	lib/vectors.cpp	/^FVector::Rep::copy()$/;"	f	class:FVector::Rep
+copy	lib/vectors.cpp	/^SVector::Rep::copy()$/;"	f	class:SVector::Rep
+copy_w	svm/old/svmsgdqn.cpp	/^  FVector copy_w()$/;"	f	class:SgdQn
+count	svm/old/svmolbfgs.cpp	/^  int count;$/;"	m	class:olbfgs	file:
+count	svm/old/svmsgd2.cpp	/^  int count;$/;"	m	class:SvmSgd	file:
+count	svm/old/svmsgdqn.cpp	/^  int count;$/;"	m	class:SgdQn	file:
+crc32	win/zlib/zconf.h	36;"	d
+crc32_combine	win/zlib/zconf.h	37;"	d
+crc32_combine	win/zlib/zlib.h	1686;"	d
+crc32_combine64	win/zlib/zconf.h	38;"	d
+cutoff	crf/crfasgd.cpp	/^int cutoff = 3;$/;"	v
+cutoff	crf/crfsgd.cpp	/^int cutoff = 3;$/;"	v
+d	crf/crfasgd.cpp	/^  const Dictionary &d;$/;"	m	class:Scorer	file:
+d	crf/crfsgd.cpp	/^  const Dictionary &d;$/;"	m	class:Scorer	file:
+dLogSum	crf/crfasgd.cpp	/^dLogSum(double g, const FVector &v, FVector &r)$/;"	f	file:
+dLogSum	crf/crfasgd.cpp	/^dLogSum(double g, const VFloat *v, VFloat *r, int n)$/;"	f	file:
+dLogSum	crf/crfsgd.cpp	/^dLogSum(double g, const FVector &v, FVector &r)$/;"	f	file:
+dLogSum	crf/crfsgd.cpp	/^dLogSum(double g, const VFloat *v, VFloat *r, int n)$/;"	f	file:
+data	crf/crfasgd.cpp	/^    strings_t data;$/;"	m	struct:Sentence::Rep	file:
+data	crf/crfasgd.cpp	/^Sentence::data(int pos, int col) const$/;"	f	class:Sentence
+data	crf/crfsgd.cpp	/^    strings_t data;$/;"	m	struct:Sentence::Rep	file:
+data	crf/crfsgd.cpp	/^Sentence::data(int pos, int col) const$/;"	f	class:Sentence
+data	lib/vectors.h	/^    VFloat *data;$/;"	m	struct:FVector::Rep
+data_type	win/zlib/zlib.h	/^    int     data_type;  \/* best guess about the data type: binary or text *\/$/;"	m	struct:z_stream_s
+dataset_t	crf/crfasgd.cpp	/^typedef vector<Sentence> dataset_t;$/;"	t	file:
+dataset_t	crf/crfsgd.cpp	/^typedef vector<Sentence> dataset_t;$/;"	t	file:
+deflate	win/zlib/zconf.h	39;"	d
+deflateBound	win/zlib/zconf.h	40;"	d
+deflateCopy	win/zlib/zconf.h	41;"	d
+deflateEnd	win/zlib/zconf.h	42;"	d
+deflateInit	win/zlib/zlib.h	1625;"	d
+deflateInit2	win/zlib/zlib.h	1629;"	d
+deflateInit2_	win/zlib/zconf.h	43;"	d
+deflateInit_	win/zlib/zconf.h	44;"	d
+deflateParams	win/zlib/zconf.h	45;"	d
+deflatePending	win/zlib/zconf.h	46;"	d
+deflatePrime	win/zlib/zconf.h	47;"	d
+deflateReset	win/zlib/zconf.h	48;"	d
+deflateResetKeep	win/zlib/zconf.h	49;"	d
+deflateSetDictionary	win/zlib/zconf.h	50;"	d
+deflateSetHeader	win/zlib/zconf.h	51;"	d
+deflateTune	win/zlib/zconf.h	52;"	d
+deflate_copyright	win/zlib/zconf.h	53;"	d
+deref	lib/wrapper.h	/^  void deref(Rep *q) { if (! --(q->refcount)) delete q; }$/;"	f	class:Wrapper
+detach	lib/wrapper.h	/^  void detach() $/;"	f	class:Wrapper
+determineEta	svm/svmsag.cpp	/^SvmSag::determineEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmSag
+determineEta0	svm/svmasgd.cpp	/^SvmAsgd::determineEta0(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmAsgd
+determineEta0	svm/svmimplicit.cpp	/^SvmIsgd::determineEta0(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmIsgd
+determineEta0	svm/svmsgd.cpp	/^SvmSgd::determineEta0(int imin, int imax, const xvec_t &xp, const yvec_t &yp)$/;"	f	class:SvmSgd
+determine_t0	svm/old/svmsgdqn.cpp	/^double determine_t0(int imin, int imax, int epochs)$/;"	f
+df	svm/old/svmcg.cpp	/^SvmCg::df(double t)$/;"	f	class:SvmCg
+dico	svm/prep_rcv1.cpp	/^dico_t dico;$/;"	v
+dico_t	svm/prep_rcv1.cpp	/^typedef hash_map<string, int> dico_t;$/;"	t	file:
+dict	crf/crfasgd.cpp	/^  Dictionary dict;$/;"	m	class:CrfSgd	file:
+dict	crf/crfsgd.cpp	/^  Dictionary dict;$/;"	m	class:CrfSgd	file:
+dict_t	crf/crfasgd.cpp	/^typedef hash_map<string,int> dict_t;$/;"	t	file:
+dict_t	crf/crfsgd.cpp	/^typedef hash_map<string,int> dict_t;$/;"	t	file:
+dim	svm/old/svmcg.cpp	/^int dim;$/;"	v
+dim	svm/old/svmolbfgs.cpp	/^int dim;$/;"	v
+dim	svm/old/svmsgd2.cpp	/^int dim;$/;"	v
+dim	svm/old/svmsgdqn.cpp	/^int dim;$/;"	v
+dims	svm/svmasgd.cpp	/^int dims;$/;"	v
+dims	svm/svmimplicit.cpp	/^int dims;$/;"	v
+dims	svm/svmsag.cpp	/^int dims;$/;"	v
+dims	svm/svmsgd.cpp	/^int dims;$/;"	v
+dloss	svm/loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:HingeLoss
+dloss	svm/loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:LogLoss
+dloss	svm/loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:SmoothHingeLoss
+dloss	svm/loss.h	/^  static double dloss(double a, double y)$/;"	f	struct:SquaredHingeLoss
+dloss	svm/old/svmcg.cpp	/^double dloss(double z)$/;"	f
+dloss	svm/old/svmolbfgs.cpp	/^double dloss(double z)$/;"	f
+dloss	svm/old/svmsgd2.cpp	/^double dloss(double z)$/;"	f
+dloss	svm/old/svmsgdqn.cpp	/^double dloss(double z)$/;"	f
+docs_t	svm/prep_rcv1.cpp	/^typedef hash_map<int, SVector> docs_t;$/;"	t	file:
+done	win/zlib/zlib.h	/^    int     done;       \/* true when done reading gzip header (not used$/;"	m	struct:gz_header_s
+dot	lib/vectors.cpp	/^dot(const FVector &v1, const FVector &v2)$/;"	f
+dot	lib/vectors.cpp	/^dot(const FVector &v1, const SVector &v2)$/;"	f
+dot	lib/vectors.cpp	/^dot(const SVector &v1, const FVector &v2)$/;"	f
+dot	lib/vectors.cpp	/^dot(const SVector &v1, const SVector &v2)$/;"	f
+dsearch	svm/old/svmcg.cpp	/^SvmCg::dsearch(double tol)$/;"	f	class:SvmCg
+dummy	win/zlib/zlib.h	/^    struct internal_state {int dummy;};$/;"	m	struct:internal_state
+elapsed	lib/timer.cpp	/^Timer::elapsed()$/;"	f	class:Timer
+endOfChunk	crf/conlleval	/^sub endOfChunk {$/;"	s
+epoch	crf/crfasgd.cpp	/^  int epoch;$/;"	m	class:CrfSgd	file:
+epoch	crf/crfsgd.cpp	/^  int epoch;$/;"	m	class:CrfSgd	file:
+epochs	crf/crfasgd.cpp	/^int epochs = 50;$/;"	v
+epochs	crf/crfsgd.cpp	/^int epochs = 50;$/;"	v
+epochs	svm/old/svmcg.cpp	/^int epochs = 100;$/;"	v
+epochs	svm/old/svmolbfgs.cpp	/^int epochs = 5;$/;"	v
+epochs	svm/old/svmsgd2.cpp	/^int epochs = 5;$/;"	v
+epochs	svm/old/svmsgdqn.cpp	/^int epochs = 5;$/;"	v
+epochs	svm/svmasgd.cpp	/^int epochs = 5;$/;"	v
+epochs	svm/svmimplicit.cpp	/^int epochs = 5;$/;"	v
+epochs	svm/svmsag.cpp	/^int epochs = 5;$/;"	v
+epochs	svm/svmsgd.cpp	/^int epochs = 5;$/;"	v
+eta	crf/crfasgd.cpp	/^  double eta;$/;"	m	class:TScorer	file:
+eta	crf/crfasgd.cpp	/^double eta = 0;$/;"	v
+eta	crf/crfsgd.cpp	/^  double eta;$/;"	m	class:TScorer	file:
+eta	crf/crfsgd.cpp	/^double eta = 0;$/;"	v
+eta	svm/svmsag.cpp	/^  double  eta;$/;"	m	class:SvmSag	file:
+eta	svm/svmsag.cpp	/^double eta = -1;$/;"	v
+eta0	crf/crfasgd.cpp	/^  double eta0;$/;"	m	class:CrfSgd	file:
+eta0	svm/svmasgd.cpp	/^  double  eta0;$/;"	m	class:SvmAsgd	file:
+eta0	svm/svmimplicit.cpp	/^  double  eta0;$/;"	m	class:SvmIsgd	file:
+eta0	svm/svmsgd.cpp	/^  double  eta0;$/;"	m	class:SvmSgd	file:
+evaluateEta	svm/svmasgd.cpp	/^SvmAsgd::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmAsgd
+evaluateEta	svm/svmimplicit.cpp	/^SvmIsgd::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmIsgd
+evaluateEta	svm/svmsag.cpp	/^SvmSag::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmSag
+evaluateEta	svm/svmsgd.cpp	/^SvmSgd::evaluateEta(int imin, int imax, const xvec_t &xp, const yvec_t &yp, double eta)$/;"	f	class:SvmSgd
+expandTemplate	crf/crfasgd.cpp	/^expandTemplate(string tpl, const strings_t &s, int columns, int pos)$/;"	f
+expandTemplate	crf/crfsgd.cpp	/^expandTemplate(string tpl, const strings_t &s, int columns, int pos)$/;"	f
+expmx	crf/crfasgd.cpp	/^expmx(double x)$/;"	f
+expmx	crf/crfsgd.cpp	/^expmx(double x)$/;"	f
+extra	win/zlib/zlib.h	/^    Bytef   *extra;     \/* pointer to extra field or Z_NULL if none *\/$/;"	m	struct:gz_header_s
+extra_len	win/zlib/zlib.h	/^    uInt    extra_len;  \/* extra field length (valid if extra != Z_NULL) *\/$/;"	m	struct:gz_header_s
+extra_max	win/zlib/zlib.h	/^    uInt    extra_max;  \/* space at extra (only when reading header) *\/$/;"	m	struct:gz_header_s
+f	lib/pstream.h	/^  std::FILE *f;$/;"	m	class:pstreambuf
+f	svm/old/svmcg.cpp	/^SvmCg::f(double t)$/;"	f	class:SvmCg
+feature	crf/crfasgd.cpp	/^  int feature(string s) const { $/;"	f	class:Dictionary
+feature	crf/crfsgd.cpp	/^  int feature(string s) const { $/;"	f	class:Dictionary
+features	crf/crfasgd.cpp	/^  dict_t features;$/;"	m	class:Dictionary	file:
+features	crf/crfsgd.cpp	/^  dict_t features;$/;"	m	class:Dictionary	file:
+file	lib/gzstream.h	/^    gzFile           file;               \/\/ file handle for compressed file$/;"	m	class:GZSTREAM_NAMESPACE::gzstreambuf
+filename	svm/data.cpp	/^  string filename;$/;"	m	struct:Loader::Private	file:
+findObjBySampling	crf/crfasgd.cpp	/^CrfSgd::findObjBySampling(const dataset_t &data, const ivec_t &sample, Weights &weights)$/;"	f	class:CrfSgd
+findObjBySampling	crf/crfsgd.cpp	/^CrfSgd::findObjBySampling(const dataset_t &data, const ivec_t &sample)$/;"	f	class:CrfSgd
+flush_buffer	lib/gzstream.cpp	/^int gzstreambuf::flush_buffer() {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+fn	crf/crfasgd.cpp	/^  ifstream fn;$/;"	m	class:ixstream_t	file:
+fn	crf/crfsgd.cpp	/^  ifstream fn;$/;"	m	class:ixstream_t	file:
+free_func	win/zlib/zconf.h	127;"	d
+free_func	win/zlib/zlib.h	/^typedef void   (*free_func)  OF((voidpf opaque, voidpf address));$/;"	t
+fs	svm/data.cpp	/^  ifstream fs;$/;"	m	struct:Loader::Private	file:
+fz	crf/crfasgd.cpp	/^  igzstream fz;$/;"	m	class:ixstream_t	file:
+fz	crf/crfsgd.cpp	/^  igzstream fz;$/;"	m	class:ixstream_t	file:
+g	svm/old/svmcg.cpp	/^  FVector g;$/;"	m	class:SvmCg	file:
+g	svm/svmsag.cpp	/^  FVector g;       \/\/ gradient sum$/;"	m	class:SvmSag	file:
+gBias	svm/svmsag.cpp	/^  double  gBias;   \/\/ bias gradient sum$/;"	m	class:SvmSag	file:
+get	lib/matrices.cpp	/^FMatrix::get(int r, int c) const $/;"	f	class:FMatrix
+get	lib/matrices.cpp	/^SMatrix::get(int r, int c) const $/;"	f	class:SMatrix
+get	lib/vectors.cpp	/^FVector::get(int i) const$/;"	f	class:FVector
+get	lib/vectors.cpp	/^SVector::get(int i) const$/;"	f	class:SVector
+getA	crf/crfasgd.cpp	/^  FVector getA() const { return ww.real_a(); }$/;"	f	class:CrfSgd
+getDict	crf/crfasgd.cpp	/^  const Dictionary& getDict() const { return dict; }$/;"	f	class:CrfSgd
+getDict	crf/crfsgd.cpp	/^  const Dictionary& getDict() const { return dict; }$/;"	f	class:CrfSgd
+getEpoch	crf/crfasgd.cpp	/^  int getEpoch() const { return epoch; }$/;"	f	class:CrfSgd
+getEpoch	crf/crfsgd.cpp	/^  int getEpoch() const { return epoch; }$/;"	f	class:CrfSgd
+getEta	crf/crfsgd.cpp	/^  double getEta() const { return 1\/(t*lambda); }$/;"	f	class:CrfSgd
+getEta0	crf/crfasgd.cpp	/^  double getEta0() const { return eta0; }$/;"	f	class:CrfSgd
+getLambda	crf/crfasgd.cpp	/^  double getLambda() const { return lambda; }$/;"	f	class:CrfSgd
+getLambda	crf/crfsgd.cpp	/^  double getLambda() const { return lambda; }$/;"	f	class:CrfSgd
+getT	crf/crfasgd.cpp	/^  double getT() const { return t; }$/;"	f	class:CrfSgd
+getTstart	crf/crfasgd.cpp	/^  double getTstart() const { return tstart; }$/;"	f	class:CrfSgd
+getW	crf/crfasgd.cpp	/^  FVector getW() const { return ww.real_w(); }$/;"	f	class:CrfSgd
+getW	crf/crfsgd.cpp	/^  FVector getW() const { const_cast<CrfSgd*>(this)->rescale(); return w; }$/;"	f	class:CrfSgd
+get_crc_table	win/zlib/zconf.h	54;"	d
+grad	crf/crfsgd.cpp	/^  SVector grad;$/;"	m	class:GScorer	file:
+gradCorrect	crf/crfasgd.cpp	/^Scorer::gradCorrect(double g)$/;"	f	class:Scorer
+gradCorrect	crf/crfsgd.cpp	/^Scorer::gradCorrect(double g)$/;"	f	class:Scorer
+gradForward	crf/crfasgd.cpp	/^Scorer::gradForward(double g)$/;"	f	class:Scorer
+gradForward	crf/crfsgd.cpp	/^Scorer::gradForward(double g)$/;"	f	class:Scorer
+gradient	crf/crfsgd.cpp	/^  SVector gradient() { return grad; }$/;"	f	class:GScorer
+gs	svm/data.cpp	/^  igzstream gs;$/;"	m	struct:Loader::Private	file:
+gzFile	win/zlib/zconf.h	129;"	d
+gzFile	win/zlib/zlib.h	/^typedef struct gzFile_s *gzFile;    \/* semi-opaque gzip file descriptor *\/$/;"	t	typeref:struct:gzFile_s
+gzFile_s	win/zlib/zlib.h	/^struct gzFile_s {$/;"	s
+gz_error	win/zlib/zconf.h	56;"	d
+gz_header	win/zlib/zconf.h	130;"	d
+gz_header	win/zlib/zlib.h	/^} gz_header;$/;"	t	typeref:struct:gz_header_s
+gz_header_s	win/zlib/zconf.h	146;"	d
+gz_header_s	win/zlib/zlib.h	/^typedef struct gz_header_s {$/;"	s
+gz_headerp	win/zlib/zconf.h	131;"	d
+gz_headerp	win/zlib/zlib.h	/^typedef gz_header FAR *gz_headerp;$/;"	t
+gz_intmax	win/zlib/zconf.h	57;"	d
+gz_strwinerror	win/zlib/zconf.h	58;"	d
+gzbuffer	win/zlib/zconf.h	59;"	d
+gzclearerr	win/zlib/zconf.h	60;"	d
+gzclose	win/zlib/zconf.h	61;"	d
+gzclose_r	win/zlib/zconf.h	62;"	d
+gzclose_w	win/zlib/zconf.h	63;"	d
+gzdirect	win/zlib/zconf.h	64;"	d
+gzdopen	win/zlib/zconf.h	65;"	d
+gzeof	win/zlib/zconf.h	66;"	d
+gzerror	win/zlib/zconf.h	67;"	d
+gzflags	win/zlib/zconf.h	68;"	d
+gzflush	win/zlib/zconf.h	69;"	d
+gzgetc	win/zlib/zconf.h	70;"	d
+gzgetc	win/zlib/zlib.h	1654;"	d
+gzgetc_	win/zlib/zconf.h	71;"	d
+gzgets	win/zlib/zconf.h	72;"	d
+gzoffset	win/zlib/zconf.h	73;"	d
+gzoffset	win/zlib/zlib.h	1684;"	d
+gzoffset64	win/zlib/zconf.h	74;"	d
+gzopen	win/zlib/zconf.h	75;"	d
+gzopen	win/zlib/zlib.h	1681;"	d
+gzopen64	win/zlib/zconf.h	76;"	d
+gzprintf	win/zlib/zconf.h	77;"	d
+gzputc	win/zlib/zconf.h	78;"	d
+gzputs	win/zlib/zconf.h	79;"	d
+gzread	win/zlib/zconf.h	80;"	d
+gzrewind	win/zlib/zconf.h	81;"	d
+gzseek	win/zlib/zconf.h	82;"	d
+gzseek	win/zlib/zlib.h	1682;"	d
+gzseek64	win/zlib/zconf.h	83;"	d
+gzsetparams	win/zlib/zconf.h	84;"	d
+gzstreambase	lib/gzstream.cpp	/^gzstreambase::gzstreambase( const char* name, int mode) {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambase
+gzstreambase	lib/gzstream.h	/^    gzstreambase() { init(&buf); }$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambase
+gzstreambase	lib/gzstream.h	/^class gzstreambase : virtual public std::ios {$/;"	c	namespace:GZSTREAM_NAMESPACE
+gzstreambuf	lib/gzstream.h	/^    gzstreambuf() : opened(0) {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+gzstreambuf	lib/gzstream.h	/^class gzstreambuf : public std::streambuf {$/;"	c	namespace:GZSTREAM_NAMESPACE
+gztell	win/zlib/zconf.h	85;"	d
+gztell	win/zlib/zlib.h	1683;"	d
+gztell64	win/zlib/zconf.h	86;"	d
+gzungetc	win/zlib/zconf.h	87;"	d
+gzwrite	win/zlib/zconf.h	88;"	d
+hash_map	crf/crfasgd.cpp	55;"	d	file:
+hash_map	crf/crfsgd.cpp	55;"	d	file:
+hash_map	svm/prep_rcv1.cpp	46;"	d	file:
+have	win/zlib/zlib.h	/^    unsigned have;$/;"	m	struct:gzFile_s
+hcrc	win/zlib/zlib.h	/^    int     hcrc;       \/* true if there was or will be a header crc *\/$/;"	m	struct:gz_header_s
+i	lib/vectors.h	/^    int i; $/;"	m	struct:SVector::Pair
+i_1	svm/old/svmolbfgs.cpp	/^  int i_1;$/;"	m	class:olbfgs	file:
+igzstream	lib/gzstream.h	/^    igzstream( const char* name, int open_mode = std::ios::in)$/;"	f	class:GZSTREAM_NAMESPACE::igzstream
+igzstream	lib/gzstream.h	/^    igzstream() : std::istream( &buf) {} $/;"	f	class:GZSTREAM_NAMESPACE::igzstream
+igzstream	lib/gzstream.h	/^class igzstream : public gzstreambase, public std::istream {$/;"	c	namespace:GZSTREAM_NAMESPACE
+imax	svm/svmsag.cpp	/^  int imin, imax; $/;"	m	struct:uniform_int_generator	file:
+imin	svm/svmsag.cpp	/^  int imin, imax; $/;"	m	struct:uniform_int_generator	file:
+in_func	win/zlib/zconf.h	133;"	d
+in_func	win/zlib/zlib.h	/^typedef unsigned (*in_func) OF((void FAR *, unsigned char FAR * FAR *));$/;"	t
+index	crf/crfasgd.cpp	/^  int index;$/;"	m	class:Dictionary	file:
+index	crf/crfsgd.cpp	/^  int index;$/;"	m	class:Dictionary	file:
+inflate	win/zlib/zconf.h	90;"	d
+inflateBack	win/zlib/zconf.h	91;"	d
+inflateBackEnd	win/zlib/zconf.h	92;"	d
+inflateBackInit	win/zlib/zlib.h	1635;"	d
+inflateBackInit_	win/zlib/zconf.h	93;"	d
+inflateCopy	win/zlib/zconf.h	94;"	d
+inflateEnd	win/zlib/zconf.h	95;"	d
+inflateGetHeader	win/zlib/zconf.h	96;"	d
+inflateInit	win/zlib/zlib.h	1627;"	d
+inflateInit2	win/zlib/zlib.h	1632;"	d
+inflateInit2_	win/zlib/zconf.h	97;"	d
+inflateInit_	win/zlib/zconf.h	98;"	d
+inflateMark	win/zlib/zconf.h	99;"	d
+inflatePrime	win/zlib/zconf.h	100;"	d
+inflateReset	win/zlib/zconf.h	101;"	d
+inflateReset2	win/zlib/zconf.h	102;"	d
+inflateResetKeep	win/zlib/zconf.h	107;"	d
+inflateSetDictionary	win/zlib/zconf.h	103;"	d
+inflateSync	win/zlib/zconf.h	104;"	d
+inflateSyncPoint	win/zlib/zconf.h	105;"	d
+inflateUndermine	win/zlib/zconf.h	106;"	d
+inflate_copyright	win/zlib/zconf.h	108;"	d
+inflate_fast	win/zlib/zconf.h	109;"	d
+inflate_table	win/zlib/zconf.h	110;"	d
+init	crf/crfasgd.cpp	/^Sentence::init(const Dictionary &dict, const strings_t &s, int columns)$/;"	f	class:Sentence
+init	crf/crfsgd.cpp	/^Sentence::init(const Dictionary &dict, const strings_t &s, int columns)$/;"	f	class:Sentence
+initFromData	crf/crfasgd.cpp	/^Dictionary::initFromData(const char *tFile, const char *dFile, int cutoff)$/;"	f	class:Dictionary
+initFromData	crf/crfsgd.cpp	/^Dictionary::initFromData(const char *tFile, const char *dFile, int cutoff)$/;"	f	class:Dictionary
+initialize	crf/crfasgd.cpp	/^CrfSgd::initialize(const char *tfname, const char *dfname, double c, int cutoff)$/;"	f	class:CrfSgd
+initialize	crf/crfsgd.cpp	/^CrfSgd::initialize(const char *tfname, const char *dfname, $/;"	f	class:CrfSgd
+internString	crf/crfasgd.cpp	/^Dictionary::internString(string s) const$/;"	f	class:Dictionary
+internString	crf/crfsgd.cpp	/^Dictionary::internString(string s) const$/;"	f	class:Dictionary
+internal_state	win/zlib/zconf.h	148;"	d
+internal_state	win/zlib/zlib.h	/^    struct internal_state {int dummy;};$/;"	s
+internedStrings	crf/crfasgd.cpp	/^  mutable dict_t internedStrings;$/;"	m	class:Dictionary	file:
+internedStrings	crf/crfsgd.cpp	/^  mutable dict_t internedStrings;$/;"	m	class:Dictionary	file:
+intf	win/zlib/zconf.h	/^typedef int   FAR intf;$/;"	t
+intf	win/zlib/zconf.h	134;"	d
+ints_t	crf/crfasgd.cpp	/^typedef vector<int> ints_t;$/;"	t	file:
+ints_t	crf/crfsgd.cpp	/^typedef vector<int> ints_t;$/;"	t	file:
+intvector_t	svm/prep_rcv1.cpp	/^typedef vector<int> intvector_t;$/;"	t	file:
+ipstream	lib/pstream.h	/^  ipstream( const char* cmd, int open_mode = std::ios::in)$/;"	f	class:ipstream
+ipstream	lib/pstream.h	/^  ipstream() : std::istream( &buf) {} $/;"	f	class:ipstream
+ipstream	lib/pstream.h	/^class ipstream : public pstreambase, public std::istream {$/;"	c
+is_open	lib/gzstream.h	/^    int is_open() { return opened; }$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+is_open	lib/pstream.h	/^  int is_open() { return !!f; }$/;"	f	class:pstreambuf
+ivec_t	crf/crfasgd.cpp	/^typedef vector<int> ivec_t;$/;"	t	file:
+ivec_t	crf/crfsgd.cpp	/^typedef vector<int> ivec_t;$/;"	t	file:
+ixstream_t	crf/crfasgd.cpp	/^  ixstream_t(const char *name) $/;"	f	class:ixstream_t
+ixstream_t	crf/crfasgd.cpp	/^class ixstream_t$/;"	c	file:
+ixstream_t	crf/crfsgd.cpp	/^  ixstream_t(const char *name) $/;"	f	class:ixstream_t
+ixstream_t	crf/crfsgd.cpp	/^class ixstream_t$/;"	c	file:
+klock	lib/timer.cpp	/^klock()$/;"	f	file:
+lambda	crf/crfasgd.cpp	/^  double lambda;$/;"	m	class:CrfSgd	file:
+lambda	crf/crfsgd.cpp	/^  double lambda;$/;"	m	class:CrfSgd	file:
+lambda	svm/old/svmcg.cpp	/^  double  lambda;$/;"	m	class:SvmCg	file:
+lambda	svm/old/svmcg.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	svm/old/svmolbfgs.cpp	/^  double  lambda;$/;"	m	class:olbfgs	file:
+lambda	svm/old/svmolbfgs.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	svm/old/svmsgd2.cpp	/^  double  lambda;$/;"	m	class:SvmSgd	file:
+lambda	svm/old/svmsgd2.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	svm/old/svmsgdqn.cpp	/^  double  lambda;$/;"	m	class:SgdQn	file:
+lambda	svm/old/svmsgdqn.cpp	/^double lambda = 1e-4;$/;"	v
+lambda	svm/svmasgd.cpp	/^  double  lambda;$/;"	m	class:SvmAsgd	file:
+lambda	svm/svmasgd.cpp	/^double lambda = 1e-5;$/;"	v
+lambda	svm/svmimplicit.cpp	/^  double  lambda;$/;"	m	class:SvmIsgd	file:
+lambda	svm/svmimplicit.cpp	/^double lambda = 1e-5;$/;"	v
+lambda	svm/svmsag.cpp	/^  double  lambda;$/;"	m	class:SvmSag	file:
+lambda	svm/svmsag.cpp	/^double lambda = 1e-5;$/;"	v
+lambda	svm/svmsgd.cpp	/^  double  lambda;$/;"	m	class:SvmSgd	file:
+lambda	svm/svmsgd.cpp	/^double lambda = 1e-5;$/;"	v
+lastt	svm/old/svmsgdqn.cpp	/^  double  lastt;$/;"	m	class:SgdQn	file:
+listKeys	svm/prep_rcv1.cpp	/^listKeys(docs_t &docs, intvector_t &ivec, bool shuffle=false)$/;"	f
+load	crf/crfasgd.cpp	/^CrfSgd::load(istream &f)$/;"	f	class:CrfSgd
+load	crf/crfsgd.cpp	/^CrfSgd::load(istream &f)$/;"	f	class:CrfSgd
+load	lib/vectors.cpp	/^FVector::load(std::istream &f)$/;"	f	class:FVector
+load	lib/vectors.cpp	/^SVector::load(std::istream &f)$/;"	f	class:SVector
+load	svm/data.cpp	/^int Loader::load(xvec_t &xp, yvec_t &yp, bool normalize, int maxrows,$/;"	f	class:Loader
+load	svm/old/svmcg.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	svm/old/svmolbfgs.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	svm/old/svmsgd2.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	svm/old/svmsgdqn.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	svm/prep_alpha.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+load	svm/prep_webspam.cpp	/^load(const char *fname, xvec_t &xp, yvec_t &yp)$/;"	f
+loadSentences	crf/crfasgd.cpp	/^loadSentences(const char *fname, const Dictionary &dict, dataset_t &data)$/;"	f
+loadSentences	crf/crfsgd.cpp	/^loadSentences(const char *fname, const Dictionary &dict, dataset_t &data)$/;"	f
+load_datafile	svm/data.cpp	/^int load_datafile(const char *filename, $/;"	f
+logSum	crf/crfasgd.cpp	/^logSum(const FVector &v)$/;"	f	file:
+logSum	crf/crfasgd.cpp	/^logSum(const VFloat *v, int n)$/;"	f	file:
+logSum	crf/crfsgd.cpp	/^logSum(const FVector &v)$/;"	f	file:
+logSum	crf/crfsgd.cpp	/^logSum(const VFloat *v, int n)$/;"	f	file:
+logfile	svm/old/svmsgdqn.cpp	/^string logfile;$/;"	v
+logs	svm/old/svmsgdqn.cpp	/^ofstream logs;$/;"	v
+loss	svm/loss.h	/^  static double loss(double a, double y)$/;"	f	struct:HingeLoss
+loss	svm/loss.h	/^  static double loss(double a, double y)$/;"	f	struct:LogLoss
+loss	svm/loss.h	/^  static double loss(double a, double y)$/;"	f	struct:SmoothHingeLoss
+loss	svm/loss.h	/^  static double loss(double a, double y)$/;"	f	struct:SquaredHingeLoss
+loss	svm/old/svmcg.cpp	/^double loss(double z)$/;"	f
+loss	svm/old/svmolbfgs.cpp	/^double loss(double z)$/;"	f
+loss	svm/old/svmsgd2.cpp	/^double loss(double z)$/;"	f
+loss	svm/old/svmsgdqn.cpp	/^double loss(double z)$/;"	f
+lossname	svm/old/svmcg.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+lossname	svm/old/svmolbfgs.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+lossname	svm/old/svmsgd2.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+lossname	svm/old/svmsgdqn.cpp	/^const char *lossname = _NAME2(LOSS);$/;"	v
+m	svm/old/svmolbfgs.cpp	/^  double m;$/;"	m	class:olbfgs	file:
+m	svm/svmsag.cpp	/^  int     m;       \/\/ gradient count$/;"	m	class:SvmSag	file:
+main	crf/crfasgd.cpp	/^main(int argc, char **argv)$/;"	f
+main	crf/crfsgd.cpp	/^main(int argc, char **argv)$/;"	f
+main	svm/make_txt.cpp	/^main(int argc, const char **argv)$/;"	f
+main	svm/old/svmcg.cpp	/^main(int argc, const char **argv)$/;"	f
+main	svm/old/svmolbfgs.cpp	/^main(int argc, const char **argv)$/;"	f
+main	svm/old/svmsgd2.cpp	/^main(int argc, const char **argv)$/;"	f
+main	svm/old/svmsgdqn.cpp	/^main(int argc, const char **argv)$/;"	f
+main	svm/prep_alpha.cpp	/^int main(int, const char**)$/;"	f
+main	svm/prep_rcv1.cpp	/^main(int, const char**)$/;"	f
+main	svm/prep_webspam.cpp	/^int main(int, const char**)$/;"	f
+main	svm/svmasgd.cpp	/^int main(int argc, const char **argv)$/;"	f
+main	svm/svmimplicit.cpp	/^int main(int argc, const char **argv)$/;"	f
+main	svm/svmsag.cpp	/^int main(int argc, const char **argv)$/;"	f
+main	svm/svmsgd.cpp	/^int main(int argc, const char **argv)$/;"	f
+math	data/pascal/convert.py	/^import math$/;"	i
+max	lib/vectors.cpp	/^  template <typename T> inline T max(T a, T b) {$/;"	f	namespace:__anon1
+maxtrain	svm/svmasgd.cpp	/^int maxtrain = -1;$/;"	v
+maxtrain	svm/svmimplicit.cpp	/^int maxtrain = -1;$/;"	v
+maxtrain	svm/svmsag.cpp	/^int maxtrain = -1;$/;"	v
+maxtrain	svm/svmsgd.cpp	/^int maxtrain = -1;$/;"	v
+min	lib/vectors.cpp	/^  template <typename T> inline T min(T a, T b) {$/;"	f	namespace:__anon1
+mode	lib/gzstream.h	/^    int              mode;               \/\/ I\/O mode$/;"	m	class:GZSTREAM_NAMESPACE::gzstreambuf
+mode	lib/pstream.h	/^  int  mode;$/;"	m	class:pstreambuf
+modelFile	crf/crfasgd.cpp	/^string modelFile;$/;"	v
+modelFile	crf/crfsgd.cpp	/^string modelFile;$/;"	v
+mpairs	lib/vectors.h	/^    int mpairs;$/;"	m	struct:SVector::Rep
+msg	win/zlib/zlib.h	/^    z_const char *msg;  \/* last error message, NULL if no error *\/$/;"	m	struct:z_stream_s
+mu0	crf/crfasgd.cpp	/^  double mu0;$/;"	m	class:CrfSgd	file:
+mu0	svm/svmasgd.cpp	/^  double  mu0;$/;"	m	class:SvmAsgd	file:
+n	svm/old/svmcg.cpp	/^  int n;$/;"	m	class:SvmCg	file:
+nFeatures	crf/crfasgd.cpp	/^  int nFeatures() const { return features.size(); }$/;"	f	class:Dictionary
+nFeatures	crf/crfsgd.cpp	/^  int nFeatures() const { return features.size(); }$/;"	f	class:Dictionary
+nOutputs	crf/crfasgd.cpp	/^  int nOutputs() const { return outputs.size(); }$/;"	f	class:Dictionary
+nOutputs	crf/crfasgd.cpp	/^  int nOutputs;$/;"	m	struct:Weights	file:
+nOutputs	crf/crfsgd.cpp	/^  int nOutputs() const { return outputs.size(); }$/;"	f	class:Dictionary
+nParams	crf/crfasgd.cpp	/^  int nParams() const { return index; }$/;"	f	class:Dictionary
+nParams	crf/crfsgd.cpp	/^  int nParams() const { return index; }$/;"	f	class:Dictionary
+nTemplates	crf/crfasgd.cpp	/^  int nTemplates() const { return templates.size(); }$/;"	f	class:Dictionary
+nTemplates	crf/crfsgd.cpp	/^  int nTemplates() const { return templates.size(); }$/;"	f	class:Dictionary
+name	win/zlib/zlib.h	/^    Bytef   *name;      \/* pointer to zero-terminated file name or Z_NULL *\/$/;"	m	struct:gz_header_s
+name_max	win/zlib/zlib.h	/^    uInt    name_max;   \/* space at name (only when reading header) *\/$/;"	m	struct:gz_header_s
+ncols	lib/matrices.h	/^    int ncols;$/;"	m	struct:FMatrix::Rep
+ncols	lib/matrices.h	/^    int ncols;$/;"	m	struct:SMatrix::Rep
+next	win/zlib/zlib.h	/^    unsigned char *next;$/;"	m	struct:gzFile_s
+next_in	win/zlib/zlib.h	/^    z_const Bytef *next_in;     \/* next input byte *\/$/;"	m	struct:z_stream_s
+next_out	win/zlib/zlib.h	/^    Bytef    *next_out; \/* next output byte should be put there *\/$/;"	m	struct:z_stream_s
+ngramify	data/pascal/convert.py	/^	def ngramify(o, s):$/;"	f	function:convert_webspam
+normalize	crf/crfasgd.cpp	/^Weights::normalize() const$/;"	f	class:Weights
+normalize	crf/crfasgd.cpp	/^Weights::normalize()$/;"	f	class:Weights
+normalize	svm/svmasgd.cpp	/^bool normalize = true;$/;"	v
+normalize	svm/svmimplicit.cpp	/^bool normalize = true;$/;"	v
+normalize	svm/svmsag.cpp	/^bool normalize = true;$/;"	v
+normalize	svm/svmsgd.cpp	/^bool normalize = true;$/;"	v
+npairs	lib/vectors.h	/^    int npairs;$/;"	m	struct:SVector::Rep
+npairs	lib/vectors.h	/^  int npairs() const { return rep()->npairs; }$/;"	f	class:SVector
+nrows	lib/matrices.h	/^    int nrows;$/;"	m	struct:FMatrix::Rep
+nrows	lib/matrices.h	/^    int nrows;$/;"	m	struct:SMatrix::Rep
+ogzstream	lib/gzstream.h	/^    ogzstream( const char* name, int mode = std::ios::out)$/;"	f	class:GZSTREAM_NAMESPACE::ogzstream
+ogzstream	lib/gzstream.h	/^    ogzstream() : std::ostream( &buf) {}$/;"	f	class:GZSTREAM_NAMESPACE::ogzstream
+ogzstream	lib/gzstream.h	/^class ogzstream : public gzstreambase, public std::ostream {$/;"	c	namespace:GZSTREAM_NAMESPACE
+olbfgs	svm/old/svmolbfgs.cpp	/^class olbfgs$/;"	c	file:
+olbfgs	svm/old/svmolbfgs.cpp	/^olbfgs::olbfgs(int dim, double l)$/;"	f	class:olbfgs
+opaque	win/zlib/zlib.h	/^    voidpf     opaque;  \/* private data object passed to zalloc and zfree *\/$/;"	m	struct:z_stream_s
+open	lib/gzstream.cpp	/^gzstreambuf* gzstreambuf::open( const char* name, int open_mode) {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+open	lib/gzstream.cpp	/^void gzstreambase::open( const char* name, int open_mode) {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambase
+open	lib/gzstream.h	/^    void open( const char* name, int open_mode = std::ios::in) {$/;"	f	class:GZSTREAM_NAMESPACE::igzstream
+open	lib/gzstream.h	/^    void open( const char* name, int open_mode = std::ios::out) {$/;"	f	class:GZSTREAM_NAMESPACE::ogzstream
+open	lib/pstream.cpp	/^pstreambase::open( const char* cmd, int open_mode) {$/;"	f	class:pstreambase
+open	lib/pstream.cpp	/^pstreambuf::open( const char *cmd, int open_mode)$/;"	f	class:pstreambuf
+open	lib/pstream.h	/^  void open( const char *cmd, int open_mode = std::ios::out) {$/;"	f	class:opstream
+open	lib/pstream.h	/^  void open( const char* cmd, int open_mode = std::ios::in) {$/;"	f	class:ipstream
+opened	lib/gzstream.h	/^    char             opened;             \/\/ open\/close state of stream$/;"	m	class:GZSTREAM_NAMESPACE::gzstreambuf
+operator ()	crf/crfasgd.cpp	/^  bool operator() (const sipair_t &p1, const sipair_t &p2) {$/;"	f	struct:SIPairCompare
+operator ()	crf/crfsgd.cpp	/^  bool operator() (const sipair_t &p1, const sipair_t &p2) {$/;"	f	struct:SIPairCompare
+operator ()	svm/svmsag.cpp	/^  int operator()() { return imin + std::rand() % (imax - imin + 1); }$/;"	f	struct:uniform_int_generator
+operator <<	crf/crfasgd.cpp	/^operator<<(ostream &f, const CrfSgd &d)$/;"	f
+operator <<	crf/crfasgd.cpp	/^operator<<(ostream &f, const Dictionary &d)$/;"	f
+operator <<	crf/crfasgd.cpp	/^operator<<(ostream &f, const Sentence &s)$/;"	f
+operator <<	crf/crfasgd.cpp	/^operator<<(ostream &f, const Weights &ww)$/;"	f
+operator <<	crf/crfsgd.cpp	/^operator<<(ostream &f, const CrfSgd &d)$/;"	f
+operator <<	crf/crfsgd.cpp	/^operator<<(ostream &f, const Dictionary &d)$/;"	f
+operator <<	crf/crfsgd.cpp	/^operator<<(ostream &f, const Sentence &s)$/;"	f
+operator <<	lib/vectors.cpp	/^operator<<(std::ostream &f, const FVector &v)$/;"	f
+operator <<	lib/vectors.cpp	/^operator<<(std::ostream &f, const SVector &v)$/;"	f
+operator =	lib/wrapper.h	/^  Wrapper& operator=(const Wrapper<Rep> &other) $/;"	f	class:Wrapper
+operator >>	crf/crfasgd.cpp	/^operator>> (istream &f, CrfSgd &d )$/;"	f
+operator >>	crf/crfasgd.cpp	/^operator>>(istream &f, Dictionary &d)$/;"	f
+operator >>	crf/crfasgd.cpp	/^operator>>(istream &f, Weights &ww)$/;"	f
+operator >>	crf/crfsgd.cpp	/^operator>> (istream &f, CrfSgd &d )$/;"	f
+operator >>	crf/crfsgd.cpp	/^operator>>(istream &f, Dictionary &d)$/;"	f
+operator >>	lib/vectors.cpp	/^operator>>(std::istream &f, FVector &v)$/;"	f
+operator >>	lib/vectors.cpp	/^operator>>(std::istream &f, SVector &v)$/;"	f
+operator VFloat*	lib/vectors.h	/^  operator VFloat* () { w.detach(); return rep()->data; }$/;"	f	class:FVector
+operator []	lib/matrices.cpp	/^FMatrix::operator[](int r)$/;"	f	class:FMatrix
+operator []	lib/matrices.cpp	/^SMatrix::operator[](int r)$/;"	f	class:SMatrix
+operator []	lib/matrices.h	/^  const FVector operator[](int r) const {$/;"	f	class:FMatrix
+operator []	lib/matrices.h	/^  const SVector operator[](int r) const {$/;"	f	class:SMatrix
+operator const Pair*	lib/vectors.h	/^  operator const Pair* () const { return rep()->pairs; }$/;"	f	class:SVector
+operator const VFloat*	lib/vectors.h	/^  operator const VFloat* () const { return rep()->data; }$/;"	f	class:FVector
+opstream	lib/pstream.h	/^  opstream( const char *cmd, int mode = std::ios::out)$/;"	f	class:opstream
+opstream	lib/pstream.h	/^  opstream() : std::ostream( &buf) {}$/;"	f	class:opstream
+opstream	lib/pstream.h	/^class opstream : public pstreambase, public std::ostream {$/;"	c
+optparse	data/pascal/convert.py	/^import optparse$/;"	i
+os	data/pascal/convert.py	/^import os$/;"	i
+os	win/zlib/zlib.h	/^    int     os;         \/* operating system *\/$/;"	m	struct:gz_header_s
+out_func	win/zlib/zconf.h	135;"	d
+out_func	win/zlib/zlib.h	/^typedef int (*out_func) OF((void FAR *, unsigned char FAR *, unsigned));$/;"	t
+output	crf/crfasgd.cpp	/^  int output(string s) const { $/;"	f	class:Dictionary
+output	crf/crfsgd.cpp	/^  int output(string s) const { $/;"	f	class:Dictionary
+outputString	crf/crfasgd.cpp	/^  string outputString(int i) const { return outputnames.at(i); }$/;"	f	class:Dictionary
+outputString	crf/crfsgd.cpp	/^  string outputString(int i) const { return outputnames.at(i); }$/;"	f	class:Dictionary
+outputnames	crf/crfasgd.cpp	/^  strings_t outputnames;$/;"	m	class:Dictionary	file:
+outputnames	crf/crfsgd.cpp	/^  strings_t outputnames;$/;"	m	class:Dictionary	file:
+outputs	crf/crfasgd.cpp	/^  dict_t outputs;$/;"	m	class:Dictionary	file:
+outputs	crf/crfsgd.cpp	/^  dict_t outputs;$/;"	m	class:Dictionary	file:
+overflow	lib/gzstream.cpp	/^int gzstreambuf::overflow( int c) { \/\/ used for output buffer only$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+overflow	lib/pstream.cpp	/^pstreambuf::overflow(int c) $/;"	f	class:pstreambuf
+p	svm/data.h	/^  Private *p;$/;"	m	class:Loader
+pairs	lib/vectors.h	/^    struct Pair *pairs;$/;"	m	struct:SVector::Rep	typeref:struct:SVector::Rep::Pair
+parse	svm/old/svmcg.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/old/svmolbfgs.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/old/svmsgd2.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/old/svmsgdqn.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/svmasgd.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/svmimplicit.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/svmsag.cpp	/^parse(int argc, const char **argv)$/;"	f
+parse	svm/svmsgd.cpp	/^parse(int argc, const char **argv)$/;"	f
+parseCmdLine	crf/crfasgd.cpp	/^parseCmdLine(int argc, char **argv)$/;"	f
+parseCmdLine	crf/crfsgd.cpp	/^parseCmdLine(int argc, char **argv)$/;"	f
+parse_options	data/pascal/convert.py	/^def parse_options():$/;"	f
+pos	win/zlib/zlib.h	/^    z_off64_t pos;$/;"	m	struct:gzFile_s
+printQnInfo	svm/old/svmsgdqn.cpp	/^SgdQn::printQnInfo(const FVector &Bb, double init)$/;"	f	class:SgdQn
+pstreambase	lib/pstream.cpp	/^pstreambase::pstreambase( const char* cmd, int mode) {$/;"	f	class:pstreambase
+pstreambase	lib/pstream.h	/^  pstreambase() { init(&buf); }$/;"	f	class:pstreambase
+pstreambase	lib/pstream.h	/^class pstreambase : virtual public std::ios {$/;"	c
+pstreambuf	lib/pstream.h	/^  pstreambuf() : f(0), mode(0) { $/;"	f	class:pstreambuf
+pstreambuf	lib/pstream.h	/^class pstreambuf : public std::streambuf $/;"	c
+q	lib/wrapper.h	/^  Rep *q;$/;"	m	class:Wrapper
+qset	lib/vectors.cpp	/^SVector::Rep::qset(int i, double v)$/;"	f	class:SVector::Rep
+r	lib/timer.h	/^  int    r;$/;"	m	class:Timer
+rdbuf	lib/gzstream.h	/^    gzstreambuf* rdbuf() { return &buf; }$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambase
+rdbuf	lib/gzstream.h	/^    gzstreambuf* rdbuf() { return gzstreambase::rdbuf(); }$/;"	f	class:GZSTREAM_NAMESPACE::igzstream
+rdbuf	lib/gzstream.h	/^    gzstreambuf* rdbuf() { return gzstreambase::rdbuf(); }$/;"	f	class:GZSTREAM_NAMESPACE::ogzstream
+rdbuf	lib/pstream.h	/^  pstreambuf* rdbuf() { return &buf; }$/;"	f	class:pstreambase
+rdbuf	lib/pstream.h	/^  pstreambuf* rdbuf() { return pstreambase::rdbuf(); }$/;"	f	class:ipstream
+rdbuf	lib/pstream.h	/^  pstreambuf* rdbuf() { return pstreambase::rdbuf(); }$/;"	f	class:opstream
+readClasses	svm/prep_rcv1.cpp	/^readClasses(const char *fname)$/;"	f
+readDataLine	crf/crfasgd.cpp	/^readDataLine(istream &f, strings_t &line, int &expected)$/;"	f
+readDataLine	crf/crfsgd.cpp	/^readDataLine(istream &f, strings_t &line, int &expected)$/;"	f
+readDataSentence	crf/crfasgd.cpp	/^readDataSentence(istream &f, strings_t &s, int &expected)$/;"	f
+readDataSentence	crf/crfsgd.cpp	/^readDataSentence(istream &f, strings_t &s, int &expected)$/;"	f
+readDocs	svm/prep_rcv1.cpp	/^readDocs(const char *fname, docs_t &docs, bool freezedico=false)$/;"	f
+readTemplateFile	crf/crfasgd.cpp	/^readTemplateFile(const char *fname, strings_t &templateVector)$/;"	f
+readTemplateFile	crf/crfsgd.cpp	/^readTemplateFile(const char *fname, strings_t &templateVector)$/;"	f
+read_label_line	data/pascal/convert.py	/^def read_label_line(flab):$/;"	f
+real_a	crf/crfasgd.cpp	/^  FVector real_a() const { normalize(); return a; }$/;"	f	struct:Weights
+real_w	crf/crfasgd.cpp	/^  FVector real_w() const { normalize(); return w; }$/;"	f	struct:Weights
+ref	lib/wrapper.h	/^  Rep *ref(Rep *q) { q->refcount++; return q; }$/;"	f	class:Wrapper
+refcount	crf/crfasgd.cpp	/^    int refcount;$/;"	m	struct:Sentence::Rep	file:
+refcount	crf/crfsgd.cpp	/^    int refcount;$/;"	m	struct:Sentence::Rep	file:
+refcount	lib/matrices.h	/^    int refcount;$/;"	m	struct:FMatrix::Rep
+refcount	lib/matrices.h	/^    int refcount;$/;"	m	struct:SMatrix::Rep
+refcount	lib/vectors.h	/^    int refcount;$/;"	m	struct:FVector::Rep
+refcount	lib/vectors.h	/^    int refcount;$/;"	m	struct:SVector::Rep
+renorm	svm/svmasgd.cpp	/^SvmAsgd::renorm()$/;"	f	class:SvmAsgd
+renorm	svm/svmimplicit.cpp	/^SvmIsgd::renorm()$/;"	f	class:SvmIsgd
+renorm	svm/svmsag.cpp	/^SvmSag::renorm()$/;"	f	class:SvmSag
+renorm	svm/svmsgd.cpp	/^SvmSgd::renorm()$/;"	f	class:SvmSgd
+rep	crf/crfasgd.cpp	/^  Rep *rep() { return w.rep(); }$/;"	f	class:Sentence	file:
+rep	crf/crfasgd.cpp	/^  const Rep *rep() const { return w.rep(); }$/;"	f	class:Sentence	file:
+rep	crf/crfsgd.cpp	/^  Rep *rep() { return w.rep(); }$/;"	f	class:Sentence	file:
+rep	crf/crfsgd.cpp	/^  const Rep *rep() const { return w.rep(); }$/;"	f	class:Sentence	file:
+rep	lib/matrices.h	/^  Rep *rep() { return w.rep(); }$/;"	f	class:FMatrix
+rep	lib/matrices.h	/^  Rep *rep() { return w.rep(); }$/;"	f	class:SMatrix
+rep	lib/matrices.h	/^  const Rep *rep() const { return w.rep(); }$/;"	f	class:FMatrix
+rep	lib/matrices.h	/^  const Rep *rep() const { return w.rep(); }$/;"	f	class:SMatrix
+rep	lib/vectors.h	/^  Rep *rep() { return w.rep(); }$/;"	f	class:FVector
+rep	lib/vectors.h	/^  Rep *rep() { return w.rep(); }$/;"	f	class:SVector
+rep	lib/vectors.h	/^  const Rep *rep() const { return w.rep(); }$/;"	f	class:FVector
+rep	lib/vectors.h	/^  const Rep *rep() const { return w.rep(); }$/;"	f	class:SVector
+rep	lib/wrapper.h	/^  Rep *rep() const$/;"	f	class:Wrapper
+rescale	crf/crfsgd.cpp	/^CrfSgd::rescale()$/;"	f	class:CrfSgd
+reserved	win/zlib/zlib.h	/^    uLong   reserved;   \/* reserved for future use *\/$/;"	m	struct:z_stream_s
+reset	lib/timer.cpp	/^Timer::reset()$/;"	f	class:Timer
+resize	crf/crfasgd.cpp	/^Weights::resize(int nParams, int nOutputs)$/;"	f	class:Weights
+resize	lib/matrices.cpp	/^FMatrix::resize(int nrows, int ncols)$/;"	f	class:FMatrix
+resize	lib/matrices.cpp	/^SMatrix::resize(int nrows, int ncols)$/;"	f	class:SMatrix
+resize	lib/vectors.cpp	/^FVector::Rep::resize(int n)$/;"	f	class:FVector::Rep
+resize	lib/vectors.cpp	/^FVector::resize(int n)$/;"	f	class:FVector
+resize	lib/vectors.cpp	/^SVector::Rep::resize(int n)$/;"	f	class:SVector::Rep
+rows	lib/matrices.h	/^    std::vector<FVector> rows;$/;"	m	struct:FMatrix::Rep
+rows	lib/matrices.h	/^    std::vector<SVector> rows;$/;"	m	struct:SMatrix::Rep
+rows	lib/matrices.h	/^  int rows() const { return rep()->nrows; }$/;"	f	class:FMatrix
+rows	lib/matrices.h	/^  int rows() const { return rep()->nrows; }$/;"	f	class:SMatrix
+s	crf/crfasgd.cpp	/^  Sentence s;$/;"	m	class:Scorer	file:
+s	crf/crfsgd.cpp	/^  Sentence s;$/;"	m	class:Scorer	file:
+s	lib/timer.h	/^  double a, s;$/;"	m	class:Timer
+save	crf/crfasgd.cpp	/^CrfSgd::save(ostream &f) const$/;"	f	class:CrfSgd
+save	crf/crfsgd.cpp	/^CrfSgd::save(ostream &f) const$/;"	f	class:CrfSgd
+save	lib/vectors.cpp	/^FVector::save(std::ostream &f) const$/;"	f	class:FVector
+save	lib/vectors.cpp	/^SVector::save(std::ostream &f) const$/;"	f	class:SVector
+saveBinary	svm/prep_alpha.cpp	/^saveBinary(const char *fname, xvec_t &xp, yvec_t &yp, $/;"	f
+saveBinary	svm/prep_rcv1.cpp	/^saveBinary(const char *fname, docs_t &docs, intvector_t &ids)$/;"	f
+saveBinary	svm/prep_webspam.cpp	/^saveBinary(const char *fname, xvec_t &xp, yvec_t &yp, $/;"	f
+saveSvmLight	svm/prep_rcv1.cpp	/^saveSvmLight(const char *fname, docs_t &docs, intvector_t &ids)$/;"	f
+scale	lib/vectors.cpp	/^FVector::scale(double c1)$/;"	f	class:FVector
+scale	lib/vectors.cpp	/^SVector::scale(double c1)$/;"	f	class:SVector
+scoreCorrect	crf/crfasgd.cpp	/^Scorer::scoreCorrect()$/;"	f	class:Scorer
+scoreCorrect	crf/crfsgd.cpp	/^Scorer::scoreCorrect()$/;"	f	class:Scorer
+scoreForward	crf/crfasgd.cpp	/^Scorer::scoreForward()$/;"	f	class:Scorer
+scoreForward	crf/crfsgd.cpp	/^Scorer::scoreForward()$/;"	f	class:Scorer
+scoresOk	crf/crfasgd.cpp	/^  bool scoresOk;$/;"	m	class:Scorer	file:
+scoresOk	crf/crfsgd.cpp	/^  bool scoresOk;$/;"	m	class:Scorer	file:
+sd	svm/svmsag.cpp	/^  FVector sd;      \/\/ saved dloss$/;"	m	class:SvmSag	file:
+sdimax	svm/svmsag.cpp	/^  int     sdimax;  \/\/ high index$/;"	m	class:SvmSag	file:
+sdimin	svm/svmsag.cpp	/^  int     sdimin;  \/\/ low index$/;"	m	class:SvmSag	file:
+search	lib/vectors.cpp	/^  search(SVector::Pair *pairs, int npairs, int i)$/;"	f	namespace:__anon2
+set	lib/matrices.cpp	/^FMatrix::set(int r, int c, VFloat v) $/;"	f	class:FMatrix
+set	lib/matrices.cpp	/^SMatrix::set(int r, int c, VFloat v) $/;"	f	class:SMatrix
+set	lib/vectors.cpp	/^FVector::set(int i, double v)$/;"	f	class:FVector
+set	lib/vectors.cpp	/^SVector::set(int i, double v)$/;"	f	class:SVector
+setEta	svm/svmsag.cpp	/^  void setEta(double x) { eta=x; }$/;"	f	class:SvmSag
+siPairCompare	crf/crfasgd.cpp	/^} siPairCompare;$/;"	v	typeref:struct:SIPairCompare
+siPairCompare	crf/crfsgd.cpp	/^} siPairCompare;$/;"	v	typeref:struct:SIPairCompare
+sipair_t	crf/crfasgd.cpp	/^typedef pair<string,int> sipair_t;$/;"	t	file:
+sipair_t	crf/crfsgd.cpp	/^typedef pair<string,int> sipair_t;$/;"	t	file:
+sivector_t	crf/crfasgd.cpp	/^typedef vector<sipair_t> sivector_t;$/;"	t	file:
+sivector_t	crf/crfsgd.cpp	/^typedef vector<sipair_t> sivector_t;$/;"	t	file:
+size	crf/crfasgd.cpp	/^  int size() const { return rep()->uFeatures.size(); }$/;"	f	class:Sentence
+size	crf/crfsgd.cpp	/^  int size() const { return rep()->uFeatures.size(); }$/;"	f	class:Sentence
+size	lib/vectors.h	/^    int size;$/;"	m	struct:FVector::Rep
+size	lib/vectors.h	/^    int size;$/;"	m	struct:SVector::Rep
+size	lib/vectors.h	/^  int size() const { return rep()->size; }$/;"	f	class:FVector
+size	lib/vectors.h	/^  int size() const { return rep()->size; }$/;"	f	class:SVector
+skip	svm/old/svmolbfgs.cpp	/^  int skip;$/;"	m	class:olbfgs	file:
+skip	svm/old/svmsgd2.cpp	/^  int skip;$/;"	m	class:SvmSgd	file:
+skip	svm/old/svmsgdqn.cpp	/^  int skip;$/;"	m	class:SgdQn	file:
+skipBlank	crf/crfasgd.cpp	/^skipBlank(istream &f)$/;"	f	file:
+skipBlank	crf/crfsgd.cpp	/^skipBlank(istream &f)$/;"	f	file:
+skipSpace	crf/crfasgd.cpp	/^skipSpace(istream &f)$/;"	f	file:
+skipSpace	crf/crfsgd.cpp	/^skipSpace(istream &f)$/;"	f	file:
+slice	lib/vectors.cpp	/^FVector::slice(int fi, int ti) const$/;"	f	class:FVector
+slice	lib/vectors.cpp	/^SVector::slice(int fi, int ti) const$/;"	f	class:SVector
+ss	svm/old/svmolbfgs.cpp	/^  vector<FVector> ss;$/;"	m	class:olbfgs	file:
+start	lib/timer.cpp	/^Timer::start()$/;"	f	class:Timer
+startOfChunk	crf/conlleval	/^sub startOfChunk {$/;"	s
+state	win/zlib/zlib.h	/^    struct internal_state FAR *state; \/* not visible by applications *\/$/;"	m	struct:z_stream_s	typeref:struct:z_stream_s::FAR
+steps	svm/old/svmsgdqn.cpp	/^double steps=1.;$/;"	v
+stop	lib/timer.cpp	/^Timer::stop()$/;"	f	class:Timer
+stream	crf/crfasgd.cpp	/^  istream& stream()$/;"	f	class:ixstream_t
+stream	crf/crfsgd.cpp	/^  istream& stream()$/;"	f	class:ixstream_t
+strings_t	crf/crfasgd.cpp	/^typedef vector<string> strings_t;$/;"	t	file:
+strings_t	crf/crfsgd.cpp	/^typedef vector<string> strings_t;$/;"	t	file:
+sum_i	svm/old/svmolbfgs.cpp	/^  double sum_i;$/;"	m	class:olbfgs	file:
+svec_t	crf/crfasgd.cpp	/^typedef vector<SVector> svec_t;$/;"	t	file:
+svec_t	crf/crfsgd.cpp	/^typedef vector<SVector> svec_t;$/;"	t	file:
+sync	lib/gzstream.cpp	/^int gzstreambuf::sync() {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+sync	lib/pstream.cpp	/^pstreambuf::sync() {$/;"	f	class:pstreambuf
+sys	data/pascal/convert.py	/^import sys$/;"	i
+t	crf/crfasgd.cpp	/^  double t;$/;"	m	class:CrfSgd	file:
+t	crf/crfsgd.cpp	/^  double t;$/;"	m	class:CrfSgd	file:
+t	svm/old/svmolbfgs.cpp	/^  double  t;$/;"	m	class:olbfgs	file:
+t	svm/old/svmsgd2.cpp	/^  double  t;$/;"	m	class:SvmSgd	file:
+t	svm/old/svmsgdqn.cpp	/^  double  t;$/;"	m	class:SgdQn	file:
+t	svm/svmasgd.cpp	/^  double  t;$/;"	m	class:SvmAsgd	file:
+t	svm/svmimplicit.cpp	/^  double  t;$/;"	m	class:SvmIsgd	file:
+t	svm/svmsag.cpp	/^  double  t;       \/\/ iteration counter$/;"	m	class:SvmSag	file:
+t	svm/svmsgd.cpp	/^  double  t;$/;"	m	class:SvmSgd	file:
+t0	svm/old/svmolbfgs.cpp	/^  double t0;$/;"	m	class:olbfgs	file:
+t0	svm/old/svmsgdqn.cpp	/^  double  t0;$/;"	m	class:SgdQn	file:
+t0	svm/old/svmsgdqn.cpp	/^double t0 = 0;$/;"	v
+tag	crf/crfasgd.cpp	/^CrfSgd::tag(const dataset_t &data)$/;"	f	class:CrfSgd
+tag	crf/crfasgd.cpp	/^bool tag = false;$/;"	v
+tag	crf/crfsgd.cpp	/^CrfSgd::tag(const dataset_t &data)$/;"	f	class:CrfSgd
+tag	crf/crfsgd.cpp	/^bool tag = false;$/;"	v
+templateFile	crf/crfasgd.cpp	/^string templateFile;$/;"	v
+templateFile	crf/crfsgd.cpp	/^string templateFile;$/;"	v
+templateString	crf/crfasgd.cpp	/^  string templateString(int i) const { return templates.at(i); }$/;"	f	class:Dictionary
+templateString	crf/crfsgd.cpp	/^  string templateString(int i) const { return templates.at(i); }$/;"	f	class:Dictionary
+templates	crf/crfasgd.cpp	/^  strings_t templates;$/;"	m	class:Dictionary	file:
+templates	crf/crfsgd.cpp	/^  strings_t templates;$/;"	m	class:Dictionary	file:
+test	crf/crfasgd.cpp	/^CrfSgd::test(const dataset_t &data, const char *conlleval, Timer *tm)$/;"	f	class:CrfSgd
+test	crf/crfasgd.cpp	/^Scorer::test()$/;"	f	class:Scorer
+test	crf/crfasgd.cpp	/^Scorer::test(ostream &f)$/;"	f	class:Scorer
+test	crf/crfasgd.cpp	/^dataset_t test;$/;"	v
+test	crf/crfsgd.cpp	/^CrfSgd::test(const dataset_t &data, const char *conlleval, Timer *tm)$/;"	f	class:CrfSgd
+test	crf/crfsgd.cpp	/^Scorer::test()$/;"	f	class:Scorer
+test	crf/crfsgd.cpp	/^Scorer::test(ostream &f)$/;"	f	class:Scorer
+test	crf/crfsgd.cpp	/^dataset_t test;$/;"	v
+test	svm/old/svmcg.cpp	/^SvmCg::test(int imin, int imax, $/;"	f	class:SvmCg
+test	svm/old/svmolbfgs.cpp	/^olbfgs::test(int imin, int imax, $/;"	f	class:olbfgs
+test	svm/old/svmsgd2.cpp	/^SvmSgd::test(int imin, int imax, $/;"	f	class:SvmSgd
+test	svm/old/svmsgdqn.cpp	/^SgdQn::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix, bool verb, FVector &infos)$/;"	f	class:SgdQn
+test	svm/prep_rcv1.cpp	/^docs_t test;$/;"	v
+test	svm/svmasgd.cpp	/^SvmAsgd::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmAsgd
+test	svm/svmimplicit.cpp	/^SvmIsgd::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmIsgd
+test	svm/svmsag.cpp	/^SvmSag::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSag
+test	svm/svmsgd.cpp	/^SvmSgd::test(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSgd
+testFile	crf/crfasgd.cpp	/^string testFile;$/;"	v
+testFile	crf/crfsgd.cpp	/^string testFile;$/;"	v
+testOne	svm/svmasgd.cpp	/^SvmAsgd::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmAsgd
+testOne	svm/svmimplicit.cpp	/^SvmIsgd::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmIsgd
+testOne	svm/svmsag.cpp	/^SvmSag::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmSag
+testOne	svm/svmsgd.cpp	/^SvmSgd::testOne(const SVector &x, double y, double *ploss, double *pnerr)$/;"	f	class:SvmSgd
+testfile	svm/old/svmcg.cpp	/^string testfile;$/;"	v
+testfile	svm/old/svmolbfgs.cpp	/^string testfile;$/;"	v
+testfile	svm/old/svmsgd2.cpp	/^string testfile;$/;"	v
+testfile	svm/old/svmsgdqn.cpp	/^string testfile;$/;"	v
+testfile	svm/svmasgd.cpp	/^const char *testfile = 0;$/;"	v
+testfile	svm/svmimplicit.cpp	/^const char *testfile = 0;$/;"	v
+testfile	svm/svmsag.cpp	/^const char *testfile = 0;$/;"	v
+testfile	svm/svmsgd.cpp	/^const char *testfile = 0;$/;"	v
+testid	svm/prep_rcv1.cpp	/^intvector_t testid;$/;"	v
+testna	crf/crfasgd.cpp	/^CrfSgd::testna(const dataset_t &data, const char *conlleval, Timer *tm)$/;"	f	class:CrfSgd
+text	win/zlib/zlib.h	/^    int     text;       \/* true if compressed data believed to be text *\/$/;"	m	struct:gz_header_s
+time	win/zlib/zlib.h	/^    uLong   time;       \/* modification time *\/$/;"	m	struct:gz_header_s
+total_in	win/zlib/zlib.h	/^    uLong    total_in;  \/* total number of input bytes read so far *\/$/;"	m	struct:z_stream_s
+total_out	win/zlib/zlib.h	/^    uLong    total_out; \/* total number of bytes output so far *\/$/;"	m	struct:z_stream_s
+touch	lib/vectors.cpp	/^FVector::touch(int i)$/;"	f	class:FVector
+train	crf/crfasgd.cpp	/^CrfSgd::train(const dataset_t &data, int epochs, Timer *tm)$/;"	f	class:CrfSgd
+train	crf/crfasgd.cpp	/^dataset_t train;$/;"	v
+train	crf/crfsgd.cpp	/^CrfSgd::train(const dataset_t &data, int epochs, Timer *tm)$/;"	f	class:CrfSgd
+train	crf/crfsgd.cpp	/^dataset_t train;$/;"	v
+train	svm/old/svmcg.cpp	/^SvmCg::train(int imin, int imax, $/;"	f	class:SvmCg
+train	svm/old/svmolbfgs.cpp	/^olbfgs::train(int imin, int imax, $/;"	f	class:olbfgs
+train	svm/old/svmsgd2.cpp	/^SvmSgd::train(int imin, int imax, $/;"	f	class:SvmSgd
+train	svm/old/svmsgdqn.cpp	/^SgdQn::train(int imin, int imax, $/;"	f	class:SgdQn
+train	svm/prep_rcv1.cpp	/^docs_t train;$/;"	v
+train	svm/svmasgd.cpp	/^SvmAsgd::train(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmAsgd
+train	svm/svmimplicit.cpp	/^SvmIsgd::train(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmIsgd
+train	svm/svmsgd.cpp	/^SvmSgd::train(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSgd
+trainFile	crf/crfasgd.cpp	/^string trainFile;$/;"	v
+trainFile	crf/crfsgd.cpp	/^string trainFile;$/;"	v
+trainInit	svm/svmsag.cpp	/^SvmSag::trainInit(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSag
+trainOnce	crf/crfasgd.cpp	/^CrfSgd::trainOnce(const Sentence &sentence, double eta, double mu)$/;"	f	class:CrfSgd
+trainOne	svm/svmasgd.cpp	/^SvmAsgd::trainOne(const SVector &x, double y, double eta, double mu)$/;"	f	class:SvmAsgd
+trainOne	svm/svmimplicit.cpp	/^void SvmIsgd::trainOne(const SVector &x, double y, double eta)$/;"	f	class:SvmIsgd
+trainOne	svm/svmsag.cpp	/^SvmSag::trainOne(const SVector &x, double y, double eta, int i)$/;"	f	class:SvmSag
+trainOne	svm/svmsgd.cpp	/^SvmSgd::trainOne(const SVector &x, double y, double eta)$/;"	f	class:SvmSgd
+trainSag	svm/svmsag.cpp	/^SvmSag::trainSag(int imin, int imax, const xvec_t &xp, const yvec_t &yp, const char *prefix)$/;"	f	class:SvmSag
+trainSgdOne	svm/svmsag.cpp	/^SvmSag::trainSgdOne(const SVector &x, double y, double eta, int i)$/;"	f	class:SvmSag
+trainfile	svm/old/svmcg.cpp	/^string trainfile;$/;"	v
+trainfile	svm/old/svmolbfgs.cpp	/^string trainfile;$/;"	v
+trainfile	svm/old/svmsgd2.cpp	/^string trainfile;$/;"	v
+trainfile	svm/old/svmsgdqn.cpp	/^string trainfile;$/;"	v
+trainfile	svm/svmasgd.cpp	/^const char *trainfile = 0;$/;"	v
+trainfile	svm/svmimplicit.cpp	/^const char *trainfile = 0;$/;"	v
+trainfile	svm/svmsag.cpp	/^const char *trainfile = 0;$/;"	v
+trainfile	svm/svmsgd.cpp	/^const char *trainfile = 0;$/;"	v
+trainid	svm/prep_rcv1.cpp	/^intvector_t trainid;$/;"	v
+trainsize	svm/old/svmcg.cpp	/^int trainsize = -1;$/;"	v
+trainsize	svm/old/svmolbfgs.cpp	/^int trainsize = -1;$/;"	v
+trainsize	svm/old/svmsgd2.cpp	/^int trainsize = -1;$/;"	v
+trainsize	svm/old/svmsgdqn.cpp	/^int trainsize = -1;$/;"	v
+trim	lib/vectors.cpp	/^SVector::trim()$/;"	f	class:SVector
+tryEtaBySampling	crf/crfasgd.cpp	/^CrfSgd::tryEtaBySampling(const dataset_t &data, const ivec_t &sample, double eta)$/;"	f	class:CrfSgd
+tryEtaBySampling	crf/crfsgd.cpp	/^CrfSgd::tryEtaBySampling(const dataset_t &data, const ivec_t &sample,$/;"	f	class:CrfSgd
+tstart	crf/crfasgd.cpp	/^  double tstart;$/;"	m	class:CrfSgd	file:
+tstart	svm/svmasgd.cpp	/^  double  tstart;$/;"	m	class:SvmAsgd	file:
+u	crf/crfasgd.cpp	/^  SVector u(int i) const { return rep()->uFeatures.at(i); }$/;"	f	class:Sentence
+u	crf/crfsgd.cpp	/^  SVector u(int i) const { return rep()->uFeatures.at(i); }$/;"	f	class:Sentence
+u	svm/old/svmcg.cpp	/^  FVector u;$/;"	m	class:SvmCg	file:
+uFeatures	crf/crfasgd.cpp	/^    svec_t uFeatures;$/;"	m	struct:Sentence::Rep	file:
+uFeatures	crf/crfsgd.cpp	/^    svec_t uFeatures;$/;"	m	struct:Sentence::Rep	file:
+uGradients	crf/crfasgd.cpp	/^  virtual void uGradients(const VFloat *g, int pos, int fy, int ny) {}$/;"	f	class:Scorer
+uGradients	crf/crfasgd.cpp	/^TScorer::uGradients(const VFloat *g, int pos, int fy, int ny)$/;"	f	class:TScorer
+uGradients	crf/crfsgd.cpp	/^  virtual void uGradients(const VFloat *g, int pos, int fy, int ny) {}$/;"	f	class:Scorer
+uGradients	crf/crfsgd.cpp	/^GScorer::uGradients(const VFloat *g, int pos, int fy, int ny)$/;"	f	class:GScorer
+uGradients	crf/crfsgd.cpp	/^TScorer::uGradients(const VFloat *g, int pos, int fy, int ny)$/;"	f	class:TScorer
+uInt	win/zlib/zconf.h	/^typedef unsigned int   uInt;  \/* 16 bits or more *\/$/;"	t
+uInt	win/zlib/zconf.h	136;"	d
+uIntf	win/zlib/zconf.h	/^typedef uInt  FAR uIntf;$/;"	t
+uIntf	win/zlib/zconf.h	137;"	d
+uLong	win/zlib/zconf.h	/^typedef unsigned long  uLong; \/* 32 bits or more *\/$/;"	t
+uLong	win/zlib/zconf.h	138;"	d
+uLongf	win/zlib/zconf.h	/^typedef uLong FAR uLongf;$/;"	t
+uLongf	win/zlib/zconf.h	139;"	d
+uScores	crf/crfasgd.cpp	/^  vector<FVector> uScores;$/;"	m	class:Scorer	file:
+uScores	crf/crfsgd.cpp	/^  vector<FVector> uScores;$/;"	m	class:Scorer	file:
+uncompress	win/zlib/zconf.h	112;"	d
+underflow	lib/gzstream.cpp	/^int gzstreambuf::underflow() { \/\/ used for input buffer only$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+underflow	lib/pstream.cpp	/^pstreambuf::underflow() $/;"	f	class:pstreambuf
+uniform_int_generator	svm/svmsag.cpp	/^  uniform_int_generator(int imin, int imax) : imin(imin),imax(imax) {}$/;"	f	struct:uniform_int_generator
+uniform_int_generator	svm/svmsag.cpp	/^struct uniform_int_generator { $/;"	s	file:
+uniform_int_generator	svm/svmsag.cpp	/^typedef std::tr1::uniform_int<int> uniform_int_generator;$/;"	t	file:
+uniform_int_generator	svm/svmsag.cpp	/^typedef std::uniform_int_distribution<int> uniform_int_generator;$/;"	t	file:
+usage	crf/crfasgd.cpp	/^usage()$/;"	f
+usage	crf/crfsgd.cpp	/^usage()$/;"	f
+usage	svm/old/svmcg.cpp	/^usage()$/;"	f
+usage	svm/old/svmolbfgs.cpp	/^usage()$/;"	f
+usage	svm/old/svmsgd2.cpp	/^usage()$/;"	f
+usage	svm/old/svmsgdqn.cpp	/^usage()$/;"	f
+usage	svm/svmasgd.cpp	/^usage(const char *progname)$/;"	f
+usage	svm/svmimplicit.cpp	/^usage(const char *progname)$/;"	f
+usage	svm/svmsag.cpp	/^usage(const char *progname)$/;"	f
+usage	svm/svmsgd.cpp	/^usage(const char *progname)$/;"	f
+uu	svm/old/svmcg.cpp	/^  double uu;$/;"	m	class:SvmCg	file:
+v	lib/vectors.h	/^    VFloat v; $/;"	m	struct:SVector::Pair
+verbose	crf/crfasgd.cpp	/^bool verbose = true;$/;"	v
+verbose	crf/crfsgd.cpp	/^bool verbose = true;$/;"	v
+viterbi	crf/crfasgd.cpp	/^Scorer::viterbi(ints_t &path)$/;"	f	class:Scorer
+viterbi	crf/crfsgd.cpp	/^Scorer::viterbi(ints_t &path)$/;"	f	class:Scorer
+voidp	win/zlib/zconf.h	/^   typedef Byte       *voidp;$/;"	t
+voidp	win/zlib/zconf.h	/^   typedef void       *voidp;$/;"	t
+voidp	win/zlib/zconf.h	140;"	d
+voidpc	win/zlib/zconf.h	/^   typedef Byte const *voidpc;$/;"	t
+voidpc	win/zlib/zconf.h	/^   typedef void const *voidpc;$/;"	t
+voidpc	win/zlib/zconf.h	141;"	d
+voidpf	win/zlib/zconf.h	/^   typedef Byte FAR   *voidpf;$/;"	t
+voidpf	win/zlib/zconf.h	/^   typedef void FAR   *voidpf;$/;"	t
+voidpf	win/zlib/zconf.h	142;"	d
+w	crf/crfasgd.cpp	/^  FVector w;$/;"	m	struct:Weights	file:
+w	crf/crfasgd.cpp	/^  Wrapper<Rep> w;$/;"	m	class:Sentence	file:
+w	crf/crfsgd.cpp	/^  FVector w;$/;"	m	class:CrfSgd	file:
+w	crf/crfsgd.cpp	/^  VFloat *w;$/;"	m	class:Scorer	file:
+w	crf/crfsgd.cpp	/^  Wrapper<Rep> w;$/;"	m	class:Sentence	file:
+w	lib/matrices.h	/^  Wrapper<Rep> w;$/;"	m	class:FMatrix
+w	lib/matrices.h	/^  Wrapper<Rep> w;$/;"	m	class:SMatrix
+w	lib/vectors.h	/^  Wrapper<Rep> w;$/;"	m	class:FVector
+w	lib/vectors.h	/^  Wrapper<Rep> w;$/;"	m	class:SVector
+w	svm/old/svmcg.cpp	/^  FVector w;$/;"	m	class:SvmCg	file:
+w	svm/old/svmolbfgs.cpp	/^  FVector w;$/;"	m	class:olbfgs	file:
+w	svm/old/svmsgd2.cpp	/^  FVector w;$/;"	m	class:SvmSgd	file:
+w	svm/old/svmsgdqn.cpp	/^  FVector w;$/;"	m	class:SgdQn	file:
+w	svm/svmasgd.cpp	/^  FVector w;$/;"	m	class:SvmAsgd	file:
+w	svm/svmimplicit.cpp	/^  FVector w;$/;"	m	class:SvmIsgd	file:
+w	svm/svmsag.cpp	/^  FVector w;       \/\/ weights$/;"	m	class:SvmSag	file:
+w	svm/svmsgd.cpp	/^  FVector w;$/;"	m	class:SvmSgd	file:
+wBias	svm/svmasgd.cpp	/^  double  wBias;$/;"	m	class:SvmAsgd	file:
+wBias	svm/svmimplicit.cpp	/^  double  wBias;$/;"	m	class:SvmIsgd	file:
+wBias	svm/svmsag.cpp	/^  double  wBias;   \/\/ bias$/;"	m	class:SvmSag	file:
+wBias	svm/svmsgd.cpp	/^  double  wBias;$/;"	m	class:SvmSgd	file:
+wDivisor	crf/crfasgd.cpp	/^  VFloat  wDivisor; $/;"	m	struct:Weights	file:
+wDivisor	svm/svmasgd.cpp	/^  double  wDivisor;$/;"	m	class:SvmAsgd	file:
+wDivisor	svm/svmimplicit.cpp	/^  double  wDivisor;$/;"	m	class:SvmIsgd	file:
+wDivisor	svm/svmsgd.cpp	/^  double  wDivisor;$/;"	m	class:SvmSgd	file:
+wFraction	crf/crfasgd.cpp	/^  VFloat  wFraction;$/;"	m	struct:Weights	file:
+wFraction	svm/svmasgd.cpp	/^  double  wFraction;$/;"	m	class:SvmAsgd	file:
+wa	svm/svmsag.cpp	/^  double  wa;      \/\/ actual w is wa*w + wb*g$/;"	m	class:SvmSag	file:
+wb	svm/svmsag.cpp	/^  double  wb;      \/\/ initially wa=1, wb=0$/;"	m	class:SvmSag	file:
+wnorm	crf/crfsgd.cpp	/^  double wnorm;$/;"	m	class:CrfSgd	file:
+wnorm	svm/svmasgd.cpp	/^SvmAsgd::wnorm()$/;"	f	class:SvmAsgd
+wnorm	svm/svmimplicit.cpp	/^SvmIsgd::wnorm()$/;"	f	class:SvmIsgd
+wnorm	svm/svmsag.cpp	/^SvmSag::wnorm()$/;"	f	class:SvmSag
+wnorm	svm/svmsgd.cpp	/^SvmSgd::wnorm()$/;"	f	class:SvmSgd
+wscale	crf/crfsgd.cpp	/^  double &wscale;$/;"	m	class:Scorer	file:
+wscale	crf/crfsgd.cpp	/^  double wscale;$/;"	m	class:CrfSgd	file:
+wu	svm/old/svmcg.cpp	/^  double wu;$/;"	m	class:SvmCg	file:
+ww	crf/crfasgd.cpp	/^  Weights &ww;$/;"	m	class:Scorer	file:
+ww	crf/crfasgd.cpp	/^  Weights ww;$/;"	m	class:CrfSgd	file:
+ww	svm/old/svmcg.cpp	/^  double ww;$/;"	m	class:SvmCg	file:
+xflags	win/zlib/zlib.h	/^    int     xflags;     \/* extra flags (not used when writing a gzip file) *\/$/;"	m	struct:gz_header_s
+xtest	svm/old/svmcg.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/old/svmolbfgs.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/old/svmsgd2.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/old/svmsgdqn.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/svmasgd.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/svmimplicit.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/svmsag.cpp	/^xvec_t xtest;$/;"	v
+xtest	svm/svmsgd.cpp	/^xvec_t xtest;$/;"	v
+xtrain	svm/old/svmcg.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/old/svmolbfgs.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/old/svmsgd2.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/old/svmsgdqn.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/svmasgd.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/svmimplicit.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/svmsag.cpp	/^xvec_t xtrain;$/;"	v
+xtrain	svm/svmsgd.cpp	/^xvec_t xtrain;$/;"	v
+xvec_t	svm/data.h	/^typedef std::vector<SVector> xvec_t;$/;"	t
+xvec_t	svm/old/svmcg.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	svm/old/svmolbfgs.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	svm/old/svmsgd2.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	svm/old/svmsgdqn.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	svm/prep_alpha.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+xvec_t	svm/prep_webspam.cpp	/^typedef vector<SVector> xvec_t;$/;"	t	file:
+y	crf/crfasgd.cpp	/^  int y(int i) const { return rep()->yLabels.at(i); }$/;"	f	class:Sentence
+y	crf/crfsgd.cpp	/^  int y(int i) const { return rep()->yLabels.at(i); }$/;"	f	class:Sentence
+yLabels	crf/crfasgd.cpp	/^    ivec_t yLabels;$/;"	m	struct:Sentence::Rep	file:
+yLabels	crf/crfsgd.cpp	/^    ivec_t yLabels;$/;"	m	struct:Sentence::Rep	file:
+ys	svm/old/svmolbfgs.cpp	/^  vector<FVector> ys;$/;"	m	class:olbfgs	file:
+ytest	svm/old/svmcg.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/old/svmolbfgs.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/old/svmsgd2.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/old/svmsgdqn.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/svmasgd.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/svmimplicit.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/svmsag.cpp	/^yvec_t ytest;$/;"	v
+ytest	svm/svmsgd.cpp	/^yvec_t ytest;$/;"	v
+ytrain	svm/old/svmcg.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/old/svmolbfgs.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/old/svmsgd2.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/old/svmsgdqn.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/svmasgd.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/svmimplicit.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/svmsag.cpp	/^yvec_t ytrain;$/;"	v
+ytrain	svm/svmsgd.cpp	/^yvec_t ytrain;$/;"	v
+yux	svm/old/svmcg.cpp	/^  FVector yux;$/;"	m	class:SvmCg	file:
+yvec_t	svm/data.h	/^typedef std::vector<double>  yvec_t;$/;"	t
+yvec_t	svm/old/svmcg.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	svm/old/svmolbfgs.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	svm/old/svmsgd2.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	svm/old/svmsgdqn.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	svm/prep_alpha.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+yvec_t	svm/prep_webspam.cpp	/^typedef vector<double> yvec_t;$/;"	t	file:
+ywx	svm/old/svmcg.cpp	/^  FVector ywx;$/;"	m	class:SvmCg	file:
+z	crf/crfasgd.cpp	/^  bool z;$/;"	m	class:ixstream_t	file:
+z	crf/crfsgd.cpp	/^  bool z;$/;"	m	class:ixstream_t	file:
+zError	win/zlib/zconf.h	114;"	d
+z_adler32_combine	win/zlib/zlib.h	1678;"	d
+z_const	win/zlib/zconf.h	219;"	d
+z_const	win/zlib/zconf.h	221;"	d
+z_crc32_combine	win/zlib/zlib.h	1679;"	d
+z_gzoffset	win/zlib/zlib.h	1677;"	d
+z_gzopen	win/zlib/zlib.h	1674;"	d
+z_gzseek	win/zlib/zlib.h	1675;"	d
+z_gztell	win/zlib/zlib.h	1676;"	d
+z_off64_t	win/zlib/zconf.h	440;"	d
+z_off64_t	win/zlib/zconf.h	443;"	d
+z_off64_t	win/zlib/zconf.h	445;"	d
+z_off_t	win/zlib/zconf.h	425;"	d
+z_off_t	win/zlib/zconf.h	436;"	d
+z_stream	win/zlib/zlib.h	/^} z_stream;$/;"	t	typeref:struct:z_stream_s
+z_stream_s	win/zlib/zlib.h	/^typedef struct z_stream_s {$/;"	s
+z_streamp	win/zlib/zlib.h	/^typedef z_stream FAR *z_streamp;$/;"	t
+zalloc	win/zlib/zlib.h	/^    alloc_func zalloc;  \/* used to allocate the internal state *\/$/;"	m	struct:z_stream_s
+zcalloc	win/zlib/zconf.h	116;"	d
+zcfree	win/zlib/zconf.h	117;"	d
+zero	lib/vectors.cpp	/^FVector::zero()$/;"	f	class:FVector
+zero	lib/vectors.cpp	/^SVector::zero()$/;"	f	class:SVector
+zfree	win/zlib/zlib.h	/^    free_func  zfree;   \/* used to free the internal state *\/$/;"	m	struct:z_stream_s
+zlibCompileFlags	win/zlib/zconf.h	119;"	d
+zlibVersion	win/zlib/zconf.h	120;"	d
+zlib_version	win/zlib/zlib.h	210;"	d
+~Loader	svm/data.cpp	/^Loader::~Loader()$/;"	f	class:Loader
+~Rep	lib/vectors.h	/^    ~Rep() { delete [] data; }$/;"	f	struct:FVector::Rep
+~Rep	lib/vectors.h	/^    ~Rep() { delete [] pairs; }$/;"	f	struct:SVector::Rep
+~Scorer	crf/crfasgd.cpp	/^  virtual ~Scorer() {}$/;"	f	class:Scorer
+~Scorer	crf/crfsgd.cpp	/^  virtual ~Scorer() {}$/;"	f	class:Scorer
+~Wrapper	lib/wrapper.h	/^  ~Wrapper() $/;"	f	class:Wrapper
+~gzstreambase	lib/gzstream.cpp	/^gzstreambase::~gzstreambase() {$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambase
+~gzstreambuf	lib/gzstream.h	/^    ~gzstreambuf() { close(); }$/;"	f	class:GZSTREAM_NAMESPACE::gzstreambuf
+~pstreambase	lib/pstream.cpp	/^pstreambase::~pstreambase() {$/;"	f	class:pstreambase
+~pstreambuf	lib/pstream.h	/^  ~pstreambuf() { close(); }$/;"	f	class:pstreambuf
